@@ -7,7 +7,8 @@
 ![iteration2](https://github.com/user-attachments/assets/1ea65515-f442-475e-b819-0cec1dc71f58)
 ### Figure 2. (Iteration one using a belt drive system)
 
-## After some further discussion with the machnist (Andy) and Geotechnical Engineer (Stephan) we have decided that it would be a good decision to contact the company that builds premade linear guide solutions, but to also try to design our own solution.
+### After some further discussion with the machnist (Andy) and Geotechnical Engineer (Stephan) we have decided that it would be a good 
+### decision to contact the company that builds premade linear guide solutions, but to also try to design our own solution.
 
 # Comparison of Custom solution vs Ready-made solution
 
