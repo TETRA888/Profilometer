@@ -24,7 +24,3 @@
 - [LC40B](https://www.zaber.com/products/linear-stages/LC40B-KM01/specs?part=LC40B2550-KM01)
 
 - Total: $3,193
-
-Kind regards,
-Asad Melibaev
-(602) - 884 9366
