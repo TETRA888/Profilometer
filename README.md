@@ -1,3 +1,9 @@
+# Set Criteria:
+- Application: Lidar/Laser system to scan and map out the roads
+- Precision: Submillimeter
+- Accuracy: Submillimeter
+- repeatibility: Submillimeter tolerence
+
 ### The initial design stage of the profilometer was quite difficult, I came up with multiple hand sketches and some digital sketches, However after consulting with two engineers and a specialzed machinist, I realized that the design was not viable. The primary reason being that I did not take into account some of the constraints on the testing tracks:
 
 ## Here are some of the digital CAD models that I created after the initial few sketches and consultations:
