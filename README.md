@@ -8,3 +8,23 @@
 ### Figure 2. (Iteration one using a belt drive system)
 
 ## After some further discussion with the machnist (Andy) and Geotechnical Engineer (Stephan) we have decided that it would be a good decision to contact the company that builds premade linear guide solutions, but to also try to design our own solution.
+
+# Here is a rough estimate of the custom solution for just the linear guide:
+
+1. Custom Solution (2500mm stroke distance):
+-HGH15 Linear rail: $442
+-Nema 23 motor: $38
+-40mm single T-slot extrusion: $111
+-motor and idler pulleys: $20
+-labor cost excluding Andy's help for custom machined parts: $720
+
+-Total: $1331
+
+2. Ready Solution (2500mm stroke distance):
+-[LC40B](https://www.zaber.com/products/linear-stages/LC40B-KM01/specs?part=LC40B2550-KM01)
+
+-Total: $3,193
+
+Kind regards,
+Asad Melibaev
+(602) - 884 9366
