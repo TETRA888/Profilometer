@@ -9,7 +9,7 @@
 
 ## After some further discussion with the machnist (Andy) and Geotechnical Engineer (Stephan) we have decided that it would be a good decision to contact the company that builds premade linear guide solutions, but to also try to design our own solution.
 
-# Comparison of Custom solution vs readymade solution
+# Comparison of Custom solution vs Ready-made solution
 
 1. Custom Solution (2500mm stroke distance):
 - HGH15 Linear rail: $442
