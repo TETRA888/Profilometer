@@ -1,5 +1,5 @@
 # <div align = "center">Set Project Criteria:
-- Application: Lidar/Laser system to scan and map out the roads
+- Application: To move Lidar/Laser system gantry on X/Y planes to scan and map out test tracks.
 - Precision: Submillimeter
 - Accuracy: Submillimeter
 - repeatibility: Submillimeter tolerence
