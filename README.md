@@ -1,4 +1,4 @@
-<div align = "center"># Set Project Criteria:
+# <div align = "center">Set Project Criteria:
 - Application: Lidar/Laser system to scan and map out the roads
 - Precision: Submillimeter
 - Accuracy: Submillimeter
