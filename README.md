@@ -5,6 +5,9 @@
 - repeatibility: Submillimeter tolerence
 <div/>
 
+### Current parts list
+ - [Profilometer parts list](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
+
 ### The initial design stage of the profilometer was quite difficult, I came up with multiple hand sketches and some digital sketches, However after consulting with two engineers and a specialzed machinist, I realized that the design was not viable. The primary reason being that I did not take into account some of the constraints on the testing tracks:
 
 ## Here are some of the digital CAD models that I created after the initial few sketches and consultations:
