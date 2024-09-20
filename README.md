@@ -34,3 +34,6 @@
 - [LC40B](https://www.zaber.com/products/linear-stages/LC40B-KM01/specs?part=LC40B2550-KM01)
 
 - Total: $3,193
+
+# Google slides presentation comparing both of the models
+ - [Presentation](https://docs.google.com/presentation/d/10kkHseNw1-S0B__xYLlKZlNxxfz0D-oyvzmkv-xncok/edit#slide=id.p)
