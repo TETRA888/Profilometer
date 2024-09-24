@@ -37,3 +37,32 @@
 
 # Google slides presentation comparing both of the models
  - [Presentation](https://docs.google.com/presentation/d/10kkHseNw1-S0B__xYLlKZlNxxfz0D-oyvzmkv-xncok/edit#slide=id.p)
+
+# Thrid iteration that will be built
+<div align = "Center">
+ Showcase View
+</div>
+
+![image](https://github.com/user-attachments/assets/1df8b744-70b0-4bfa-a11d-afa3a9b27c9c)
+
+<div align = "Center">
+ Front View:
+</div>
+
+![image](https://github.com/user-attachments/assets/5f6d2b1e-0f1b-41bf-957f-b31f8383f3e4)
+
+<div align = "Center">
+ Side View:
+</div>
+
+![image](https://github.com/user-attachments/assets/03d96492-b6ec-4f09-b3ee-706e03d6eb1c)
+
+<div align = "Center" >
+ Top Down View
+</div>
+
+![image](https://github.com/user-attachments/assets/23000946-5d9c-4619-a9c5-029e85737245)
+
+
+
+
