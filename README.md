@@ -38,8 +38,10 @@
 # Google slides presentation comparing both of the models
  - [Presentation](https://docs.google.com/presentation/d/10kkHseNw1-S0B__xYLlKZlNxxfz0D-oyvzmkv-xncok/edit#slide=id.p)
 
-# Thrid iteration that will be built
-# <div align = "Center"> Showcase View
+# <div align = "Center"> (Thrid iteration that will be built)
+</div>
+
+# <div align = "Center"> Showcase View:
 </div>
 
 ![image](https://github.com/user-attachments/assets/1df8b744-70b0-4bfa-a11d-afa3a9b27c9c)
