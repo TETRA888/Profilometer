@@ -1,5 +1,5 @@
 # <div align = "center">Set Project Criteria:
-- Application: To move Lidar/Laser system gantry on X/Y planes to scan and map out a test track that is 8m long Y axis and 1m along the X axis
+- Application: To move Lidar/Laser system gantry on X/Y planes to scan and map out a test track that is 8m along the Y axis and 1m along the X axis
 - Precision: Submillimeter
 - Accuracy: Submillimeter
 - repeatibility: Submillimeter tolerence
