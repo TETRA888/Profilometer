@@ -61,6 +61,8 @@
 
 ![image](https://github.com/user-attachments/assets/23000946-5d9c-4619-a9c5-029e85737245)
 
+# Worked on creating a basic schematic
+![image](https://github.com/user-attachments/assets/d285dac6-6800-44ed-ab63-b48569e42b3a)
 
 
 
