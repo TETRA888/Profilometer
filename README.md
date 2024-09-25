@@ -61,6 +61,9 @@
 
 ![image](https://github.com/user-attachments/assets/23000946-5d9c-4619-a9c5-029e85737245)
 
+# Analog Drawing of schematic:
+![image](https://github.com/user-attachments/assets/9a568066-24c2-4e27-9342-9dd45ef6251c)
+
 # Worked on creating a basic schematic
 ![image](https://github.com/user-attachments/assets/e03756ac-cc0a-44d8-81d0-12ec9ca38810)
 
