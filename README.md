@@ -16,5 +16,5 @@
 </div>
 
 ![370549337-e03756ac-cc0a-44d8-81d0-12ec9ca38810](https://github.com/user-attachments/assets/c86bd222-eb04-4c2a-aee0-ba2ea33dbb47)
-# <div align = "Center" > Figure 2. (Basic Schematic of the system)
+# <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
