@@ -15,9 +15,9 @@
 # Gallery:
 
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-# <div align = "Center" > Figure 1. (Side view of the 3D model)
+## <div align = "Center" > Figure 1. (Side view of the 3D model)
 </div>
 
 ![370549337-e03756ac-cc0a-44d8-81d0-12ec9ca38810](https://github.com/user-attachments/assets/c86bd222-eb04-4c2a-aee0-ba2ea33dbb47)
-# <div align = "Center" > Figure 2. (Basic Schematic of the controller)
+## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
