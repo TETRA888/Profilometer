@@ -62,3 +62,6 @@ void loop() {
   stepper.run(); // Non-blocking function to run the motor
 }
 ```
+# Spec sheet for frame
+![image](https://github.com/user-attachments/assets/b00d398e-fe64-4068-9114-2de268df600d)
+
