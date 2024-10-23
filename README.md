@@ -29,37 +29,31 @@
 ```cpp
 #include <AccelStepper.h>
 
-// Define the pins
-#define STEP_PIN 13
-#define DIR_PIN 12
-#define ENABLE_PIN 11
+// Define a stepper and the pins it will use
+const int stepPin = 13;    // STEP pin connected to pin 7
+const int dirPin = 12;     // DIR pin connected to pin 8
+const int enablePin = 9;  // EN pin connected to pin 9 (optional)
 
-// Create an instance of AccelStepper
-AccelStepper stepper(AccelStepper::DRIVER, STEP_PIN, DIR_PIN);
+// Create the stepper object with 2 pins (using driver mode)
+AccelStepper stepper(1, stepPin, dirPin);
 
 void setup() {
-  // Set the enable pin as output
-  pinMode(ENABLE_PIN, OUTPUT);
+  // Set the enable pin as an output
+  pinMode(enablePin, OUTPUT);
+  digitalWrite(enablePin, LOW); // Enable the driver
   
-  // Enable the driver (LOW to enable for some drivers, change if needed)
-  digitalWrite(ENABLE_PIN, LOW);
-
-  // Set max speed and acceleration
-  stepper.setMaxSpeed(1000);    // Adjust as needed
-  stepper.setAcceleration(500); // Adjust as needed
-  
-  // Set the initial target position
-  stepper.moveTo(1000); // Number of steps to move
+  // Set the maximum speed and acceleration
+  stepper.setMaxSpeed(4000);       // Increase if necessary
+  stepper.setAcceleration(500);     // Increase if necessary
+  stepper.moveTo(500);              // Move to position 500
 }
 
 void loop() {
-  // Run the motor to the target position
-  if (stepper.distanceToGo() == 0) {
-    // Change direction when target is reached
+  // If at the end of travel, reverse direction
+  if (stepper.distanceToGo() == 0)
     stepper.moveTo(-stepper.currentPosition());
-  }
 
-  stepper.run(); // Non-blocking function to run the motor
+  stepper.run(); // Run the stepper
 }
 ```
 # Spec sheet for frame
