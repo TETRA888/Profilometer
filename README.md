@@ -28,6 +28,8 @@
 
 ```cpp
 #include <AccelStepper.h>
+#include <math.h>
+#define PI 3.14159265358979323846
 
 // Define a stepper and the pins it will use
 const int stepPin = 13;    // STEP pin connected to pin 13
@@ -37,37 +39,39 @@ const int enablePin = 9;  // EN pin connected to pin 9 (optional)
 // Create the stepper object with 2 pins (using driver mode)
 AccelStepper stepper(1, stepPin, dirPin);
 
+void move_rail_x(int distance){
+  int pulses = (distance / (2*PI*0.028))*400;
+  stepper.moveTo(pulses);
+  stepper.run();
+}
+
 void setup() {
-  // Set the enable pin as an output
-  pinMode(enablePin, OUTPUT);
+  pinMode(enablePin, OUTPUT); // Set the enable pin as an output
   digitalWrite(enablePin, LOW); // Enable the driver
   
   // Set the maximum speed and acceleration
-  stepper.setMaxSpeed(2000);       // Increase if necessary
-  stepper.setAcceleration(500);     // Increase if necessary
-  stepper.moveTo(400);              // Move to position 500
-// Motor setup and formulas
-/*
-θ = (360/((steps per rev)) * #pulses
-θ is the angle that the shaft has rotated
-Current setup is as follows:
-400 steps per revolution
-A full 360 degree rotation would require 400 pulses
-*/
+  stepper.setMaxSpeed(2000); // 2000mm/s
+  stepper.setAcceleration(400); // 400mm/s^2
 
-// Pulley setup and formulas
-/*
-1 rotation = 400 pulses
-distance = (2πr) * number of rotations
-*/
+  // Motor setup and formulas
+  /*
+  θ = (360/((steps per rev)) * #pulses
+  θ is the angle that the shaft has rotated
+  Current setup is as follows:
+  400 steps per revolution
+  A full 360 degree rotation would require 400 pulses
+  */
+
+  // Pulley setup and formulas
+  /*
+  1 rotation = 400 pulses
+  distance = (2πr) * number of rotations
+  */
 }
 
 void loop() {
-  // If at the end of travel, reverse direction
-  if (stepper.distanceToGo() == 0)
-    stepper.moveTo(-stepper.currentPosition());
-
-  stepper.run(); // Run the stepper
+  int distance = 1; // distance is in meters
+  move_rail_x(distance);
 }
 ```
 # Spec sheet for frame
