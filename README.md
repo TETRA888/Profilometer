@@ -30,8 +30,8 @@
 #include <AccelStepper.h>
 
 // Define a stepper and the pins it will use
-const int stepPin = 13;    // STEP pin connected to pin 7
-const int dirPin = 12;     // DIR pin connected to pin 8
+const int stepPin = 13;    // STEP pin connected to pin 13
+const int dirPin = 12;     // DIR pin connected to pin 12
 const int enablePin = 9;  // EN pin connected to pin 9 (optional)
 
 // Create the stepper object with 2 pins (using driver mode)
@@ -43,9 +43,23 @@ void setup() {
   digitalWrite(enablePin, LOW); // Enable the driver
   
   // Set the maximum speed and acceleration
-  stepper.setMaxSpeed(4000);       // Increase if necessary
+  stepper.setMaxSpeed(2000);       // Increase if necessary
   stepper.setAcceleration(500);     // Increase if necessary
   stepper.moveTo(500);              // Move to position 500
+// Motor setup and formulas
+/*
+θ = (360/((steps per rev)*(microsteps))) * #pulses
+θ is the angle that the shaft has rotated
+Current setup is as follows:
+400 steps per revolution
+2 microsteps
+A full 360 degree rotation would require 800 pulses
+*/
+// Pulley setup and formulas
+/*
+1 rotation = 800 pulses
+distance = (2πr) * number of rotations
+*/
 }
 
 void loop() {
