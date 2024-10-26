@@ -45,19 +45,19 @@ void setup() {
   // Set the maximum speed and acceleration
   stepper.setMaxSpeed(2000);       // Increase if necessary
   stepper.setAcceleration(500);     // Increase if necessary
-  stepper.moveTo(500);              // Move to position 500
+  stepper.moveTo(400);              // Move to position 500
 // Motor setup and formulas
 /*
-θ = (360/((steps per rev)*(microsteps))) * #pulses
+θ = (360/((steps per rev)) * #pulses
 θ is the angle that the shaft has rotated
 Current setup is as follows:
 400 steps per revolution
-2 microsteps
-A full 360 degree rotation would require 800 pulses
+A full 360 degree rotation would require 400 pulses
 */
+
 // Pulley setup and formulas
 /*
-1 rotation = 800 pulses
+1 rotation = 400 pulses
 distance = (2πr) * number of rotations
 */
 }
