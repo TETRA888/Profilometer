@@ -116,7 +116,7 @@ void updateEncoder() {
 void move_rail_x(int distance) {
     int pulses = (distance / (2 * PI * 28)) * 3200; // Calculate pulses for the given distance
     stepper.moveTo(pulses); // Set target position
-    while (stepper.distanceToGo() != 0) { // Move until the target position is reached
+    while (stepper.distanceToGo() != 0 && ((encoderPosition*0.1466275659824047) == distance)) { // Move until the target position is reached and verified by encoder
         stepper.run(); // Run the stepper motor
     }
 }
