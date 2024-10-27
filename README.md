@@ -1,5 +1,12 @@
-# <div align = "Center" > Test Track Profilometer
+# <div align = "Center" > Open Source 3D Profilometer By Asad Melibaev
 </div>
+
+# In collaboration with:
+![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
+![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
+
+# Help and guidance from:
+Andrew Cobb, Kin Yen, Stephanus Louw
 
 # Specs:
 - ![Static Badge](https://img.shields.io/badge/Language-C-blue)
@@ -116,7 +123,7 @@ void updateEncoder() {
 void move_rail_x(int distance) {
     int pulses = (distance / (2 * PI * 28)) * 3200; // Calculate pulses for the given distance
     stepper.moveTo(pulses); // Set target position
-    while (stepper.distanceToGo() != 0) { // Move until the target position is reached
+    while (stepper.distanceToGo() != 0 && ((encoderPosition*0.1466275659824047) == distance)) { // Move until the target position is reached and verified by encoder
         stepper.run(); // Run the stepper motor
     }
 }
