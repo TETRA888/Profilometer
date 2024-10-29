@@ -13,7 +13,10 @@ Andrew Cobb, Kin Yen, Stephanus Louw
 
 # Specs:
 - ![Static Badge](https://img.shields.io/badge/Language-C-blue)
-- ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-red)
+- ![Static Badge](https://img.shields.io/badge/Language-Python-red)
+- ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
+- ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
+- ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
 - ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
 - ![Static Badge](https://img.shields.io/badge/Accuracy-Submilimeter-green)
 - ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
