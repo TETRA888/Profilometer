@@ -174,7 +174,8 @@ void loop() {
 ### Submilimeter encoder calibration completed with the stepper motor
 
 # Sub mill achieved:
-![image](https://github.com/user-attachments/assets/ea26056d-1939-45df-84d4-babdae8b881d)
+![image](https://github.com/user-attachments/assets/9b63d809-6dc8-4725-9c5b-83a01d76cedc)
+
 
 
 
