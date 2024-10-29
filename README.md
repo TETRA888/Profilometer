@@ -7,7 +7,7 @@ The profilometer features a modular design for reliability, utilizing a robust s
 
 This project also emphasizes transparency and collaboration. The hardware list and design documents, including detailed schematics and CAD renderings, are publicly accessible. Future steps involve advancing encoder calibration for precise offset correction and refining LiDAR calibration for micrometer-level detail capture, along with parsing combined location and color data for detailed surface imaging.
 
-The Open Source 3D Road Profilometer operates in conjunction with the Heavy Vehicle Simulator (HVS), a large-scale machine used to perform accelerated pavement testing. Positioned to scan the road surface that the HVS will stress test, the profilometer captures detailed 3D scans both before and after each test cycle. This integration allows for precise tracking of pavement deformations and wear caused by the HVS, offering critical data for validating material durability and optimizing pavement design.
+The Open Source 3D Road Profilometer operates in conjunction with the Heavy Vehicle Simulator (HVS), a large-scale machine used to perform accelerated pavement testing. Positioned to scan the road surface that the HVS will stress test, the profilometer captures detailed 3D scans both before and after each test cycle. This integration allows for precise tracking of pavement deformations and wear caused by the HVS, offering critical data for validating material durability and optimizing pavement design for California roads
 
 By enabling high-resolution data capture in challenging test environments, this system facilitates thorough analysis of road materials under simulated heavy traffic conditions.
 
