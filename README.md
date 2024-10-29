@@ -1,6 +1,12 @@
 # <div align = "Center" > Open Source 3D Road Profilometer By Asad Melibaev
 </div>
 
+In partnership with the Pavement Research Center at UC Davis, this open-source 3D Road Profilometer project is designed to enhance road research and development through precision mapping and profiling. This system is an adaptable gantry equipped with high-accuracy sensors, including a Garmin LiDAR-Lite v3HP, a 64MP camera for photogrammetry, and Class II precision laser. It provides sub-millimeter precision, gathering vital data on pavement conditions that support Caltrans' road sustainability and repair initiatives.
+
+The profilometer features a modular design for reliability, utilizing a robust stepper motor and custom driver programming for controlled movement along the X axis. It’s calibrated to handle sub-millimeter measurements, allowing it to create detailed 3D maps and point clouds of road surfaces. By integrating advanced sensors, it captures accurate topographical data to identify cracks, surface variations, and texture details crucial for road quality analysis.
+
+This project also emphasizes transparency and collaboration. The hardware list and design documents, including detailed schematics and CAD renderings, are publicly accessible. Future steps involve advancing encoder calibration for precise offset correction and refining LiDAR calibration for micrometer-level detail capture, along with parsing combined location and color data for detailed surface imaging.
+
 # As part of the team with:
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
