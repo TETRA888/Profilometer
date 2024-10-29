@@ -1,7 +1,7 @@
 # <div align = "Center" > Open Source 3D Profilometer By Asad Melibaev
 </div>
 
-# In collaboration with:
+# As part of the team with.:
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 
