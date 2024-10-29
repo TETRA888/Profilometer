@@ -188,6 +188,9 @@ void loop() {
 # Utilizing 64MP Camera for photogrammetry mapping of the road:
 ![image](https://github.com/user-attachments/assets/690f08b7-1356-43be-958b-edece788f500)
 
-
+# Next steps and milestones:
+1. Complete encoder calibration for active offset correction
+2. Calibrate LiDAR for micrometer precision
+3. Work on parsing location and RGBA data into single points
 
 
