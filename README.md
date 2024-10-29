@@ -8,6 +8,9 @@
 # Help and guidance from:
 Andrew Cobb, Kin Yen, Stephanus Louw
 
+# Design process documentation:
+1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
+
 # Specs:
 - ![Static Badge](https://img.shields.io/badge/Language-C-blue)
 - ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-red)
