@@ -176,5 +176,12 @@ void loop() {
 # Sub mill achieved:
 ![image](https://github.com/user-attachments/assets/9b63d809-6dc8-4725-9c5b-83a01d76cedc)
 
+# Utilizing Garmin LIDAR-Lite v3HP for point cloud mapping:
+![image](https://github.com/user-attachments/assets/b87a08cc-a08b-48a4-9e66-ddc740305fd2)
+
+# Utilizing 64MP Camera for photogrammetry mapping of the road:
+![image](https://github.com/user-attachments/assets/690f08b7-1356-43be-958b-edece788f500)
+
+
 
 
