@@ -25,13 +25,13 @@ Andrew Cobb, Kin Yen, Stephanus Louw
 ## <div align = "Center" > Figure 1. (Side view of the 3D model)
 </div>
 
-# Iteration #1 Schematic:
+# Iteration #1 Initial schematic for stepper motor control:
 
 ![370549337-e03756ac-cc0a-44d8-81d0-12ec9ca38810](https://github.com/user-attachments/assets/c86bd222-eb04-4c2a-aee0-ba2ea33dbb47)
 ## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
 
-# Iteration #1 Code:
+# Iteration #1 Basic Code for debugging the drivers and stepper motor:
 
 ```cpp
 #include <AccelStepper.h>
@@ -82,7 +82,7 @@ void loop() {
 }
 ```
 
-# Iteration #1 Calibrated Code for Submilimeter accuracy
+# Iteration #1 Calibrated Code for Submilimeter accuracy debugging and testing
 ```cpp
 #include <AccelStepper.h>
 #include <math.h>
@@ -175,7 +175,6 @@ void loop() {
 
 # Sub mill achieved:
 ![image](https://github.com/user-attachments/assets/9b63d809-6dc8-4725-9c5b-83a01d76cedc)
-
 
 
 
