@@ -165,6 +165,14 @@ void loop() {
 # Spec sheet for frame
 ![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
 
+# Iteration #1 of the frame assembly
+![image](https://github.com/user-attachments/assets/d379a351-0e1b-4eab-8d46-dd3683de833d)
+### Some current issues include torsional wobble along the X-Axis which will be planned to replaced by a 8080 aluminum extrusion
+
+# Iteration #1 of the electronics
+![image](https://github.com/user-attachments/assets/8821cd9f-d167-477e-ad44-f5d820c94e56)
+### Submilimeter encoder calibration completed with the stepper motor
+
 # Sub mill achieved:
 ![image](https://github.com/user-attachments/assets/ea26056d-1939-45df-84d4-babdae8b881d)
 
