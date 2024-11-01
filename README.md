@@ -35,6 +35,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ## Collaborating Institutions
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
+![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
 # High-Level Systems Design Overview
 ![Systems Diagram(1)](https://github.com/user-attachments/assets/35b1d3e9-78a1-4742-bf07-a832225d76c4)
