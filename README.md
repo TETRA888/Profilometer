@@ -28,6 +28,10 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 
 - **Stephanus Louw**  
   *(Lead Geotechnical Engineer)*
+
+- **Rauf Zokhrabov**  
+  *(Undergraduate Mechanical Engineer)*
+  *(University of Illinois Urbana-Champaign)*
   
 ### Acknowledgments
 I would like to express my sincere gratitude to my Electrical Engineering professors and faculty members at UC Davis for their invaluable support in designing the system and deepening my understanding of circuit design. Their expertise and guidance have been instrumental in the development of this project.
