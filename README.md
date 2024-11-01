@@ -17,7 +17,7 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 2. [Collaborating Institutions](#collaborating-institutions)
 3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 5. [Key Features/Specifications](#Tech-Stack-and-Specs)
-8. [Code Examples](#-Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
+8. [Code Examples](#Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
 
 ## Key Contributors
 
