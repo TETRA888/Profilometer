@@ -202,7 +202,7 @@ void loop() {
 
 # Next steps and milestones:
 1. Complete encoder calibration for active offset correction
-2. Calibrate LiDAR for micrometer precision
+2. Calibrate LiDAR for micrometer precision.
 3. Work on parsing location and RGBA data into single points
 
 
