@@ -206,9 +206,6 @@ void loop() {
 }
 ```
 
-# Frame Design Overview
-![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
-
 # Iteration #1 of the frame assembly
 ![image](https://github.com/user-attachments/assets/d379a351-0e1b-4eab-8d46-dd3683de833d)
 ### Some current issues include torsional wobble along the X-Axis which will be planned to replaced by a 8080 aluminum extrusion
@@ -217,7 +214,7 @@ void loop() {
 ![image](https://github.com/user-attachments/assets/8821cd9f-d167-477e-ad44-f5d820c94e56)
 ### Submilimeter encoder calibration completed with the stepper motor
 
-# Sub mill achieved:
+# Sub mill achieved
 ![image](https://github.com/user-attachments/assets/9b63d809-6dc8-4725-9c5b-83a01d76cedc)
 
 # Utilizing Garmin LIDAR-Lite v3HP for point cloud mapping:
