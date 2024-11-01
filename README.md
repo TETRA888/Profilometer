@@ -30,7 +30,7 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
   *(Lead Geotechnical Engineer)*
 
 - **Rauf Zokhrabov**  
-  *(Undergraduate Mechanical Engineer)*
+  *(Documentation Assistant)*
   *(University of Illinois Urbana-Champaign)*
   
 ### Acknowledgments
