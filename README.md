@@ -17,7 +17,7 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 2. [Collaborating Institutions](#collaborating-institutions)
 3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 5. [Key Features/Specifications](#Tech-Stack-and-Specs)
-8. [Code Examples](###-Iteration-#1-Basic-Code-for-debugging-the-drivers-and-stepper-motor)
+8. [Code Examples](#-Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
 
 ## Key Contributors
 
@@ -90,32 +90,45 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 # Code with active offsetting for submilimeter accuracy debugging and testing
 ```cpp
 /*
-Submilimeter X-Axis gantry control code by Asad Melibaev
+* Submilimeter X-Axis gantry control code by Asad Melibaev
+* This code will be broken down into a multi-file program once debugging and further testing is completed
 */
 
-#include <AccelStepper.h>
+#include <AccelStepper.h> // Stepper motor library with fine controls
 #include <math.h>
-#define PI 3.14159265358979323846 // Simply the value of PI
+#define PI 3.14159265358979323846
 #define RC 0.1466275659824047 // Rotary calibration constant calculated by A.M
+#define CN 1.33351439541 // Conversion constant calculated by A.M
 
-// Define pins for the stepper motor
+/*
+* Connect corresponding pins to the DM542 stepper motor driver 
+*/
 const int stepPin = 13;    // STEP pin connected to pin 13
 const int dirPin = 12;     // DIR pin connected to pin 12
 const int enablePin = 9;   // EN pin connected to pin 9 (optional)
 
-// Define pins for the encoder
+/*
+Connect corresponding encoder pins to the microcontroller
+*/
 const int encoderPinA = 21; // Encoder Channel A
 const int encoderPinB = 20; // Encoder Channel B
 
-// Create the stepper object with driver mode
+/*
+* Create the stepper object with driver mode enabled by setting the first param to 1
+*/
 AccelStepper stepper(1, stepPin, dirPin);
 
-// Variables for encoder position
+/*
+* Encoder variables will be constantly changing therefore are set to volatile
+* This ensures the compiler does not optimize or store stuff in cache
+*/
 volatile long encoderPosition = 0; // Current position
 volatile bool lastAState = LOW;     // Last state of encoder pin A
 volatile int offsetFromExpected = 0;
 
-// Interrupt service routine to handle encoder changes
+/*
+* Update encoder vars as soon as position changes
+*/
 void updateEncoder() {
     bool currentAState = digitalRead(encoderPinA);
     bool currentBState = digitalRead(encoderPinB);
@@ -129,25 +142,44 @@ void updateEncoder() {
     }
 
     lastAState = currentAState; // Update last state
+
+    // Void returns nothin 
 }
 
+/*
+* Adjusts stepper motor location to correct an offset caused during movement
+* @param offsetFromExpected is the amount of steps that the position is offset by
+*/
 void correctLocation(int offsetFromExpected){
     stepper.moveTo(offsetFromExpected); // Set target position
     while (stepper.distanceToGo() != 0) { // Move until the target position is reached and verified by encoder
         stepper.run(); // Run the stepper motor
     }
+
+    // Void returns nothing
 }
 
+/*
+* This function verifies that the accuracy is within the submilimeter tolerence and if its not it adjusts the offsetFromExpected value
+@ param distance: is the distance in mm
+@ param pulses: is the amount of pulses that have been sent to the stepper motor
+*/
 void verifiedAccuracy(int distance, int pulses){
   double TOLERANCE = 0.1; // in mm
 
   if (fabs(encoderPosition * RC - distance) > TOLERANCE){
-    offsetFromExpected = pulses*1.33351439541 - encoderPosition;
+    offsetFromExpected = pulses*CN - encoderPosition;
   }
+
+  // Void Returns nothing
 }
 
+/*
+* This function moves the rail by the specified distance in mm
+@param distance: Is the distance that it will move in mm
+*/
 void move_rail_x(int distance) {
-    int pulses = (distance / (2 * PI * 28)) * 3200; // Calculate pulses for the given distance
+    int pulses = (distance / (2 * PI * 28)) * 3200; // Calculate pulses for the given distance // 0.1466 mm per pulse to be exact
     stepper.moveTo(pulses); // Set target position
     while (stepper.distanceToGo() != 0) { // Move until the target position is reached and verified by encoder
         stepper.run(); // Run the stepper motor
@@ -161,8 +193,13 @@ void move_rail_x(int distance) {
       offsetFromExpected = 0;
     }
     */
+
+    // Void returns nothing
 }
 
+/*
+* Initialize required pins, interrupts, and serial communication between the PC and microcontroller
+*/
 void setup() {
     Serial.begin(115200);
     pinMode(enablePin, OUTPUT); // Set the enable pin as an output
@@ -179,11 +216,14 @@ void setup() {
     // Set the maximum speed and acceleration
     stepper.setMaxSpeed(2000); // 2000mm/s
     stepper.setAcceleration(1000); // 400mm/s^2
+
+    // Void returns nothing
 }
 
-// 6820 pulses
-// real travelled distance = 1000/6820 = 0.1466 mm per pulse
-
+/*
+* Main function where the gantry will move
+* Currently setup to check calibration
+*/
 void loop() {
     int distance = 500; // Distance is in millimeters (1 meter)
     move_rail_x(distance); // Move the rail by the specified distance
@@ -194,6 +234,8 @@ void loop() {
     Serial.println(" mm");
     
     delay(1000); // Wait for 1 second before the next move
+
+    // Void returns nothing
 }
 ```
 
