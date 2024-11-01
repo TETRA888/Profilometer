@@ -13,11 +13,11 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 ![1-s2 0-S1996681417300354-gr6](https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86)
 
 ## Table of Contents
-1. [Project Leadership](###Core-Team)
+1. [Project Leadership](##-Key-Contributors)
 2. [Collaborating Institutions](#collaborating-institutions)
 3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 5. [Key Features/Specifications](#Tech-Stack-and-Specs)
-8. [Code Examples](#1-Calibrated-Code-for-Submilimeter-accuracy-debugging-and-testing)
+8. [Code Examples](###-Iteration-#1-Basic-Code-for-debugging-the-drivers-and-stepper-motor)
 
 ## Key Contributors
 
@@ -87,7 +87,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
 
-### Iteration #1 Basic Code for debugging the drivers and stepper motor:
+### Iteration #1 Basic Code for debugging the drivers and stepper motor
 
 ```cpp
 #include <AccelStepper.h>
