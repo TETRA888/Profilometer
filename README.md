@@ -40,7 +40,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![Systems Diagram(1)](https://github.com/user-attachments/assets/35b1d3e9-78a1-4742-bf07-a832225d76c4)
 
 # High-Level Electrical Systems Design Overview
-![Electronic System Overview](https://github.com/user-attachments/assets/e15b5358-b00a-45fd-b3c2-3121469e0483)
+![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
