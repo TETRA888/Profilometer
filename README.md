@@ -16,7 +16,7 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 
 ### Core Team
 - **Asad Melibaev**  
-  *(Project Lead)*  
+  *(Systems Lead)*  
   [GitHub Profile](https://github.com/TETRA888)
 
 ### Help, Advice and Guidance from
