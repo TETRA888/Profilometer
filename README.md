@@ -1,24 +1,40 @@
-# <div align = "Center" > Open Road Profiler By Asad Melibaev
-</div>
+# Open Road Profiler (ORP)
 
-In partnership with the Pavement Research Center at UC Davis, this open-source 3D Road Profilometer project is designed to enhance road research and development through precision mapping and profiling. This system is an adaptable gantry equipped with high-accuracy sensors, including a Garmin LiDAR-Lite v3HP, a 64MP camera for photogrammetry, and Class II precision laser. It provides sub-millimeter precision, gathering vital data on pavement conditions that support Caltrans' road sustainability and repair initiatives.
+The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road mixture designs developed by Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class II precision laser, to capture sub-millimeter road surface details crucial for high-fidelity data.
 
-The profilometer features a modular design for reliability, utilizing a robust stepper motor and custom driver programming for controlled movement along the X axis. It’s calibrated to handle sub-millimeter measurements, allowing it to create detailed 3D maps and point clouds of road surfaces. By integrating advanced sensors, it captures accurate topographical data to identify cracks, surface variations, and texture details crucial for road quality analysis.
+## Purpose
 
-This project also emphasizes transparency and collaboration. The hardware list and design documents, including detailed schematics and CAD renderings, are publicly accessible. Future steps involve advancing encoder calibration for precise offset correction and refining LiDAR calibration for micrometer-level detail capture, along with parsing combined location and color data for detailed surface imaging.
+Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California.
 
-The Open Source 3D Road Profilometer operates in conjunction with the Heavy Vehicle Simulator (HVS), a large-scale machine used to perform accelerated pavement testing. Positioned to scan the road surface that the HVS will stress test, the profilometer captures detailed 3D scans both before and after each test cycle. This integration allows for precise tracking of pavement deformations and wear caused by the HVS, offering critical data for validating material durability and optimizing pavement design for California roads
+## Project Leadership
 
-By enabling high-resolution data capture in challenging test environments, this system facilitates thorough analysis of road materials under simulated heavy traffic conditions.
+Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
 ![1-s2 0-S1996681417300354-gr6](https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86)
 
-# As part of the team with:
+## Key Contributors
+
+### Core Team
+- **Asad Melibaev**  
+  *(Project Lead)*  
+  [GitHub Profile](https://github.com/TETRA888)
+
+### Help, Advice and Guidance from
+- **Andrew Cobb**  
+  *(Sr. Machinst)*  
+
+- **Kin Yen**  
+  *(Sr. Development Engineer)*  
+
+- **Stephanus Louw**  
+  *(Lead Geotechnical Engineer)*
+  
+### Acknowledgments
+I would like to express my sincere gratitude to my Electrical Engineering professors and faculty members at UC Davis for their invaluable support in designing the system and deepening my understanding of circuit design. Their expertise and guidance have been instrumental in the development of this project.
+  
+### Collaborating Institutions
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
-
-# Help and guidance from:
-Andrew Cobb, Kin Yen, Stephanus Louw
 
 # Design process documentation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
