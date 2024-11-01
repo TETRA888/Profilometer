@@ -32,14 +32,14 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 ### Acknowledgments
 I would like to express my sincere gratitude to my Electrical Engineering professors and faculty members at UC Davis for their invaluable support in designing the system and deepening my understanding of circuit design. Their expertise and guidance have been instrumental in the development of this project.
   
-### Collaborating Institutions
+## Collaborating Institutions
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 
 # High-Level Systems Design Overview
 ![Systems Diagram(1)](https://github.com/user-attachments/assets/35b1d3e9-78a1-4742-bf07-a832225d76c4)
 
-# Design process documentation:
+# Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
 # Tech Stack and Specs:
@@ -56,19 +56,20 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 1. [Parts list Wiki](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
 2. [Google Sheets containing exact quantities and parts needed](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 
-# Renders:
+# Blender Renders:
 
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
 ## <div align = "Center" > Figure 1. (Side view of the 3D model)
 </div>
 
-# Iteration #1 Initial schematic for stepper motor control:
+# Low Level Electrical System Design Overview
+### Iteration #1 Initial schematic for stepper motor control:
 
 ![370549337-e03756ac-cc0a-44d8-81d0-12ec9ca38810](https://github.com/user-attachments/assets/c86bd222-eb04-4c2a-aee0-ba2ea33dbb47)
 ## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
 
-# Iteration #1 Basic Code for debugging the drivers and stepper motor:
+### Iteration #1 Basic Code for debugging the drivers and stepper motor:
 
 ```cpp
 #include <AccelStepper.h>
@@ -199,7 +200,7 @@ void loop() {
 }
 ```
 
-# Spec sheet for frame
+# Frame Design Overview
 ![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
 
 # Iteration #1 of the frame assembly
