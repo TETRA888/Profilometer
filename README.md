@@ -39,7 +39,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 # Design process documentation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
-# Specs:
+# Tech Stack and Specs:
 - ![Static Badge](https://img.shields.io/badge/Language-C-blue)
 - ![Static Badge](https://img.shields.io/badge/Language-Python-red)
 - ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
