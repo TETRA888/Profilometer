@@ -17,7 +17,7 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
 2. [Collaborating Institutions](#collaborating-institutions)
 3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 5. [Key Features/Specifications](#Tech-Stack-and-Specs)
-8. [Code Examples](#Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
+8. [Code Examples](#Sample-code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
 
 ## Key Contributors
 
@@ -87,7 +87,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
 </div>
 
-# Code with active offsetting for submilimeter accuracy debugging and testing
+# Sample code with active offsetting for submilimeter accuracy debugging and testing
 ```cpp
 /*
 * Submilimeter X-Axis gantry control code by Asad Melibaev
