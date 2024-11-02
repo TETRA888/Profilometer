@@ -10,7 +10,7 @@ Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers
 1. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 2. [Key Features/Specifications](#Tech-Stack-and-Specs)
 3. [Project Code](#Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
-4. [Project Leadership](##Key-Contributors)
+4. [Project Leadership](##-Key-Contributors)
 5. [Collaborating Institutions](#collaborating-institutions)
 
 # High-Level Multi System Integration Overview
