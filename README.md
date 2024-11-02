@@ -10,7 +10,7 @@ Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers
 1. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 2. [Key Features/Specifications](#Tech-Stack-and-Specs)
 3. [Project Code](#Code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
-4. [Project Leadership](##-Key-Contributors)
+4. [Project Leadership](#Key-Contributors)
 5. [Collaborating Institutions](#collaborating-institutions)
 
 # High-Level Multi System Integration Overview
@@ -56,11 +56,11 @@ System diagram designs for Electrical, Software and Embedded are found here.
 
 Full code used for the project found in [here](https://github.com/TETRA888/Profilometer/blob/main/Code/XAxisRailControl/XAxisRailControl.ino).
 
-## Project Leadership
+# Project Leadership
 
 Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
-## Key Contributors
+# Key Contributors
 
 ### Core Team
 - **Asad Melibaev**  
