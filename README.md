@@ -17,7 +17,7 @@ Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers
 
 System diagram designs for Electrical, Software and Embedded are found here. 
 
-![Systems Diagram(1)](https://github.com/user-attachments/assets/35b1d3e9-78a1-4742-bf07-a832225d76c4)
+![Systems Diagram](https://github.com/user-attachments/assets/a596d962-1c3d-4df4-bdc4-865af248637e)
 
 # Mechanical Frame Design And Parts Overview
 ![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
