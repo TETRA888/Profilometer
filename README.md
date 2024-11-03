@@ -10,7 +10,10 @@ Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers
 
 Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
-![1-s2 0-S1996681417300354-gr6](https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
+</p>
+<div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
 
 ## Table of Contents
 1. [Project Leadership](##-Key-Contributors)
@@ -48,23 +51,28 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
-# High-Level Multi System Integration Overview
+# <div align="center"> High-Level Multi System Integration Overview </div>
 ![image](https://github.com/user-attachments/assets/8839c64d-6e4a-4f62-a997-80743c14610c)
+## <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
 
-# High-Level Electrical System Design Overview
+# <div align ="center"> High-Level Electrical System Design Overview </div>
 ![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
+## <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
 
-# Electronic Schematic Overview
+# <div align ="center"> Electronic Schematic Overview </div>
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
+## <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
 
-# High-Level Software System Design Overview
+# <div align ="center"> High-Level Software System Design Overview </div>
 ![High Level Software](https://github.com/user-attachments/assets/9cfec3ed-bea4-4a3b-860d-f29a711aa0e1)
 
-# Low-Level Embedded Software System Design Overview
+# <div align ="center"> High-Level Firmware System Design Overview </div>
 ![Software Design](https://github.com/user-attachments/assets/b4a4c98d-c5f1-4c48-93e9-cc25088d4ced)
 
-# Mechanical Frame Design And Parts Overview
-![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
+# <div align ="center"> Mechanical Frame Design Overview </div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff" alt="image">
+</p>
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
