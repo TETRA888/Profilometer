@@ -140,7 +140,7 @@ ser.close()
 ![Software Design](https://github.com/user-attachments/assets/5eb6d624-5567-4f5e-95c3-a54661827108)
 ## <div align="center"> Figure 7.0 (Data collection) </div>
 
-# Sample Firmware Code
+## Sample Firmware Code
 ```cpp
 /*
 * Submilimeter X-Axis gantry control code by Asad Melibaev
@@ -296,7 +296,7 @@ void loop() {
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
 ## <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
 
-# <div align ="center"> Assembled Sample Frame </div>
+## Assembled Sample Frame
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
 ## <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
 
