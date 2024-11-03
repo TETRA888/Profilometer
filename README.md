@@ -63,6 +63,10 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
 ## <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
 
+# <div align ="center"> Assembled Electronics Overview </div>
+![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
+## <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
+
 # <div align ="center"> High-Level Software System Design Overview </div>
 ![High Level Software](https://github.com/user-attachments/assets/9cfec3ed-bea4-4a3b-860d-f29a711aa0e1)
 ```python
