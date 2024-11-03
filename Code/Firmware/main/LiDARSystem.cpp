@@ -7,7 +7,6 @@ unsigned long pulseDuration;
 float distanceCM;
 
 void setupLidar() {
-  Serial.begin(115200);           // Initialize serial communication
   pinMode(triggerPin, OUTPUT);  // Set trigger pin as output
   pinMode(monitorPin, INPUT);   // Set monitor pin as input
 

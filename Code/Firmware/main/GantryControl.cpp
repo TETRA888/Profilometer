@@ -59,7 +59,6 @@ bool move_rail_x(int distance) {
 }
 
 void setupGantry() {
-    Serial.begin(115200);
     pinMode(EndStop0, INPUT);
     pinMode(EndStop1, INPUT);
     pinMode(enablePin, OUTPUT);
