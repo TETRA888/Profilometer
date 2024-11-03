@@ -2,7 +2,7 @@ import serial
 import time
 
 # Open the serial connection
-ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)
+ser = serial.Serial('/dev/ACM1', 115200, timeout=1)
 time.sleep(2)  # Give the connection a moment to initialize
 
 # Send the start command to the Arduino
