@@ -69,6 +69,9 @@ void setupGantry() {
     attachInterrupt(digitalPinToInterrupt(encoderPinA), updateEncoder, CHANGE);
     attachInterrupt(digitalPinToInterrupt(encoderPinB), updateEncoder, CHANGE);
 
+    /*
+    * Speed and Acceleration settings all in mm
+    */
     stepper.setMaxSpeed(2000);
     stepper.setAcceleration(1000);
 }

@@ -1,6 +1,6 @@
 #include "LiDARSystem.h"
 #include <Arduino.h>
-const int triggerPin = 51;     // Trigger pin on Arduino
+const int triggerPin = 51;     // Trigger pin on Arduino, you connect the monitor pin to the trigger pin via a 1k resistor
 const int monitorPin = 53;      // Mode control pin connected to yellow wire
 
 unsigned long pulseDuration;
@@ -24,13 +24,18 @@ void readLidar() {
 
   // Convert pulse duration to distance in cm (10 µs per cm)
   if (pulseDuration > 0) {
-    distanceCM = pulseDuration;  // Convert to cm
+    distanceCM = pulseDuration;  // Convert to mm
+
+    // Debugging code for the LiDAR
+    /*
     Serial.print("Distance: ");
     Serial.print(distanceCM);
     Serial.println(" mm");
+    */
   } else {
+    /*
+    * More debugging code
+    */
     Serial.println("No valid PWM signal detected. Check wiring and setup.");
   }
-
-  delay(100);  // Delay between readings
 }

@@ -1,6 +1,9 @@
-// main.ino
-#include "GantryControl.h"
-#include "LiDARSystem.h"
+/*
+* Open Road Profiler firmware written by Asad Melibaev
+*/
+
+#include "GantryControl.h" // Contains driver and induction sensor controls
+#include "LiDARSystem.h" // Contains only the LiDAR controls
 
 void setup() {
     Serial.begin(115200);
