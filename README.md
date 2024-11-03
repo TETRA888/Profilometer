@@ -1,4 +1,4 @@
-# Open Road Profiler (ORP)
+#  <div align="center"> Open Road Profiler (ORP) </div>
 
 The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs developed by Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class II precision laser, to capture sub-millimeter road surface details crucial for high-fidelity data.
 
@@ -41,10 +41,10 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
   *(Documentation Assistant)*
   *(University of Illinois Urbana-Champaign)*
   
-### Acknowledgments
+### <div align = "center"> Acknowledgments </div>
 I would like to express my sincere gratitude to my Electrical Engineering professors and faculty members at UC Davis for their invaluable support in designing the system and deepening my understanding of circuit design. Their expertise and guidance have been instrumental in the development of this project.
   
-## Collaborating Institutions
+## <div align = "center"> Collaborating Institutions </div>
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
