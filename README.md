@@ -14,13 +14,11 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
   <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 <div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
-
+ 
 ## Table of Contents
 1. [Project Leadership](##-Key-Contributors)
 2. [Collaborating Institutions](#collaborating-institutions)
 3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
-5. [Key Features/Specifications](#Tech-Stack-and-Specs)
-8. [Code Examples](#Sample-code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
 
 ## Key Contributors
 
@@ -56,7 +54,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ## <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
-![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
+![Electronic System Overview](https://github.com/user-attachments/assets/a1dfd340-66dc-46f6-a01b-4a3a1e8daf18)
 ## <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
 
 # <div align ="center"> Electronic Schematic Overview </div>
@@ -68,7 +66,10 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ## <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
-![High Level Software](https://github.com/user-attachments/assets/9cfec3ed-bea4-4a3b-860d-f29a711aa0e1)
+![High Level Software](https://github.com/user-attachments/assets/9c1f1827-0924-40f6-bd45-1ba07a533b19)
+## <div align="center"> Figure 6.0 (Data flow) </div>
+
+## Sample Software Code
 ```python
 import serial
 import time
@@ -136,9 +137,10 @@ ser.close()
 ```
 
 # <div align ="center"> High-Level Firmware System Design Overview </div>
-![Software Design](https://github.com/user-attachments/assets/b4a4c98d-c5f1-4c48-93e9-cc25088d4ced)
+![Software Design](https://github.com/user-attachments/assets/5eb6d624-5567-4f5e-95c3-a54661827108)
+## <div align="center"> Figure 7.0 (Data collection) </div>
 
-# Sample code with active offsetting for submilimeter accuracy debugging and testing
+# Sample Firmware Code
 ```cpp
 /*
 * Submilimeter X-Axis gantry control code by Asad Melibaev
@@ -290,28 +292,26 @@ void loop() {
 }
 ```
 
-# <div align ="center"> Mechanical Frame Design Overview </div>
-
+# <div align ="center"> Mechanical Frame CAD Design Overview </div>
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-## <div align = "Center" > Figure 1. (Side view of the 3D model)
-</div>
+## <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff" alt="image">
-</p>
+# <div align ="center"> Assembled Sample Frame </div>
+![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
+## <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
 # Tech Stack and Specs:
-- ![Static Badge](https://img.shields.io/badge/Language-C-blue)
-- ![Static Badge](https://img.shields.io/badge/Language-Python-red)
-- ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
-- ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
-- ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
-- ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
-- ![Static Badge](https://img.shields.io/badge/Accuracy-Submilimeter-green)
-- ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
+ ![Static Badge](https://img.shields.io/badge/Language-C-blue)
+ ![Static Badge](https://img.shields.io/badge/Language-Python-red)
+ ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
+ ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
+ ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
+ ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
+ ![Static Badge](https://img.shields.io/badge/Accuracy-Submilimeter-green)
+ ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
 
 # Parts:
 1. [Parts list Wiki](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
