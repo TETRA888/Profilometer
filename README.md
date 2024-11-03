@@ -54,6 +54,9 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 # High-Level Electrical System Design Overview
 ![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
 
+# Electronic Schematic Overview
+![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
+
 # High-Level Software System Design Overview
 ![High Level Software](https://github.com/user-attachments/assets/9cfec3ed-bea4-4a3b-860d-f29a711aa0e1)
 
