@@ -49,7 +49,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
 # High-Level Multi System Integration Overview
-![Systems Diagram](https://github.com/user-attachments/assets/634db3c8-5403-4285-9196-abdcc3bc1cef)
+![image](https://github.com/user-attachments/assets/ab84f7cb-2c37-4f95-b8f4-195b26ad0582)
 
 # High-Level Electrical System Design Overview
 ![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
