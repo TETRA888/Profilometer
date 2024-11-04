@@ -4,11 +4,11 @@ The **Open Road Profiler (ORP)** is an advanced, open-source system engineered t
 
 ## Purpose
 
-Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California.
+Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California. The end goal of this project is to enable all road research labs in the world with the ability to accurately assess how their road design degrades and performs overtime.
 
 ## Project Leadership
 
-Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
+Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing HVS systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
@@ -56,7 +56,7 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
 ### <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
 
-# <div align ="center"> Assembled Electronics Overview </div>
+# <div align ="center"> Assembled Data Acquisition Electronics Overview </div>
 ![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
 ### <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
 
@@ -309,6 +309,11 @@ void loop() {
  ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
 
 # Parts:
-1. [Parts list Wiki](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
-2. [Google Sheets containing exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
+1. [Exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
+2. [Parts list draft](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
+
+# Profiler from 30 years ago
+<p align="center"> 
+<img src="https://github.com/user-attachments/assets/5ffa2545-2cf1-40bd-9891-e65d8baee50d">
+</p>
 
