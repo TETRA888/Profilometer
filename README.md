@@ -46,23 +46,23 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 
 # <div align="center"> High-Level Multi System Integration Overview </div>
 ![image](https://github.com/user-attachments/assets/8839c64d-6e4a-4f62-a997-80743c14610c)
-## <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
+### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
 ![Electronic System Overview](https://github.com/user-attachments/assets/a1dfd340-66dc-46f6-a01b-4a3a1e8daf18)
-## <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
+### <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
 
 # <div align ="center"> Electronic Schematic Overview </div>
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
-## <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
+### <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
 
 # <div align ="center"> Assembled Electronics Overview </div>
 ![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
-## <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
+### <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
 ![High Level Software](https://github.com/user-attachments/assets/9c1f1827-0924-40f6-bd45-1ba07a533b19)
-## <div align="center"> Figure 6.0 (Data flow) </div>
+### <div align="center"> Figure 6.0 (Data flow) </div>
 
 ## Sample Software Code
 ```python
@@ -133,7 +133,7 @@ ser.close()
 
 # <div align ="center"> High-Level Firmware System Design Overview </div>
 ![Software Design](https://github.com/user-attachments/assets/5eb6d624-5567-4f5e-95c3-a54661827108)
-## <div align="center"> Figure 7.0 (Data collection) </div>
+### <div align="center"> Figure 7.0 (Data collection) </div>
 
 ## Sample Firmware Code
 ```cpp
@@ -289,11 +289,11 @@ void loop() {
 
 # <div align ="center"> Mechanical Frame CAD Design Overview </div>
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-## <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
+### <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
 
 ## Assembled Sample Frame
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
-## <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
+### <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
