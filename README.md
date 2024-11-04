@@ -312,3 +312,8 @@ void loop() {
 1. [Exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 2. [Parts list draft](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
 
+# Profiler from 30 years ago
+<p align="center"> 
+<img src="https://github.com/user-attachments/assets/5ffa2545-2cf1-40bd-9891-e65d8baee50d">
+</p>
+
