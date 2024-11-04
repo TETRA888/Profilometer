@@ -1,19 +1,23 @@
-#  <div align="center"> Open Road Profiler (ORP) </div>
+# Open Road Profiler (ORP)
 
 The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs developed by Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class II precision laser, to capture sub-millimeter road surface details crucial for high-fidelity data.
 
 ## Purpose
 
-Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California.
+Purpose-built to support the **Heavy Vehicle Simulator (HVS)**, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California.
 
 ## Project Leadership
 
 Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
-</p>
-<div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
+![1-s2 0-S1996681417300354-gr6](https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86)
+
+## Table of Contents
+1. [Project Leadership](##-Key-Contributors)
+2. [Collaborating Institutions](#collaborating-institutions)
+3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
+5. [Key Features/Specifications](#Tech-Stack-and-Specs)
+8. [Code Examples](#Sample-code-with-active-offsetting-for-submilimeter-accuracy-debugging-and-testing)
 
 ## Key Contributors
 
@@ -36,106 +40,60 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
   *(Documentation Assistant)*
   *(University of Illinois Urbana-Champaign)*
   
-### <div align = "center"> Acknowledgments </div>
+### Acknowledgments
 I would like to express my sincere gratitude to my Electrical Engineering professors and faculty members at UC Davis for their invaluable support in designing the system and deepening my understanding of circuit design. Their expertise and guidance have been instrumental in the development of this project.
   
-## <div align = "center"> Collaborating Institutions </div>
+## Collaborating Institutions
 ![PIC_Logo_Version3-1](https://github.com/user-attachments/assets/17cbd89d-2607-47e3-9363-86e45fdb013c)
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
-# <div align="center"> High-Level Multi System Integration Overview </div>
-![image](https://github.com/user-attachments/assets/8839c64d-6e4a-4f62-a997-80743c14610c)
-### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
+# High-Level Multi System Integration Overview
+![Systems Diagram(1)](https://github.com/user-attachments/assets/35b1d3e9-78a1-4742-bf07-a832225d76c4)
 
-# <div align ="center"> High-Level Electrical System Design Overview </div>
-![Electronic System Overview](https://github.com/user-attachments/assets/a1dfd340-66dc-46f6-a01b-4a3a1e8daf18)
-### <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
+# High-Level Electrical System Design Overview
+![Electronic System Overview(1)](https://github.com/user-attachments/assets/d6533f4a-1731-4d4b-939f-d08a8defeab5)
 
-# <div align ="center"> Electronic Schematic Overview </div>
-![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
-### <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
+# High-Level Software System Design Overview
+![High Level Software](https://github.com/user-attachments/assets/9cfec3ed-bea4-4a3b-860d-f29a711aa0e1)
 
-# <div align ="center"> Assembled Electronics Overview </div>
-![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
-### <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
+# Low-Level Embedded Software System Design Overview
+![Software Design](https://github.com/user-attachments/assets/b4a4c98d-c5f1-4c48-93e9-cc25088d4ced)
 
-# <div align ="center"> High-Level Software System Design Overview </div>
-![High Level Software](https://github.com/user-attachments/assets/9c1f1827-0924-40f6-bd45-1ba07a533b19)
-### <div align="center"> Figure 6.0 (Data flow) </div>
+# Mechanical Frame Design And Parts Overview
+![image](https://github.com/user-attachments/assets/1d78618b-e48f-44f0-9139-ca29d3cbe0ff)
 
-## Sample Software Code
-```python
-import serial
-import time
-import numpy as np
-import open3d as o3d
+# Documentation and Implementation:
+1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
-# Open the serial connection
-ser = serial.Serial('/dev/ACM1', 115200, timeout=1)
-time.sleep(2)  # Give the connection a moment to initialize
+# Tech Stack and Specs:
+- ![Static Badge](https://img.shields.io/badge/Language-C-blue)
+- ![Static Badge](https://img.shields.io/badge/Language-Python-red)
+- ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
+- ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
+- ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
+- ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
+- ![Static Badge](https://img.shields.io/badge/Accuracy-Submilimeter-green)
+- ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
 
-# Send the start command to the Arduino
-ser.write(b'START\n')
-print("Start command sent to Arduino")
+# Parts:
+1. [Parts list Wiki](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
+2. [Google Sheets containing exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 
-# Function to load point data from a text file
-def load_point_data(file_path):
-    points_data = np.loadtxt(file_path, delimiter=' ', dtype=float)
-    return points_data
+# Blender Renders:
 
-# Read the data sent back by the Arduino
-data_points = []
+![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
+## <div align = "Center" > Figure 1. (Side view of the 3D model)
+</div>
 
-while True:
-    if ser.in_waiting > 0:
-        line = ser.readline().decode('utf-8').strip()
-        if line.startswith("DATA:"):
-            try:
-                _, values = line.split("DATA:")
-                x, y, z = map(float, values.split(","))
-                print(f"X: {x}, Y: {y}, Z: {z}")
-                # Store the data points
-                data_points.append((x, y, z))
-            except ValueError:
-                print("Parsing error!")
+# Low Level Electrical System Design Overview
+### Iteration #1 Initial schematic for stepper motor control:
 
-    # Break out of the loop if you want to stop reading (you can define a condition)
-    if len(data_points) >= 100:  # for example, stop after 100 points
-        break
+![370549337-e03756ac-cc0a-44d8-81d0-12ec9ca38810](https://github.com/user-attachments/assets/c86bd222-eb04-4c2a-aee0-ba2ea33dbb47)
+## <div align = "Center" > Figure 2. (Basic Schematic of the controller)
+</div>
 
-# Convert collected points to NumPy array
-points_data = np.array(data_points)
-
-# Ensure the data is in the correct shape
-if points_data.shape[1] != 3:
-    raise ValueError("Each line in the data must contain 3 values: x, y, z")
-
-# Create Open3D point cloud
-pcd = o3d.geometry.PointCloud()
-pcd.points = o3d.utility.Vector3dVector(points_data)
-
-# Estimate normals for the point cloud
-pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))
-
-# Perform Poisson reconstruction
-mesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(pcd, depth=9)
-
-# Visualize the result
-o3d.visualization.draw_geometries([mesh])
-
-# Optionally save the mesh to a file
-o3d.io.write_triangle_mesh("output_mesh.ply", mesh)
-
-# Close the serial connection
-ser.close()
-```
-
-# <div align ="center"> High-Level Firmware System Design Overview </div>
-![Software Design](https://github.com/user-attachments/assets/5eb6d624-5567-4f5e-95c3-a54661827108)
-### <div align="center"> Figure 7.0 (Data collection) </div>
-
-## Sample Firmware Code
+# Sample code with active offsetting for submilimeter accuracy debugging and testing
 ```cpp
 /*
 * Submilimeter X-Axis gantry control code by Asad Melibaev
@@ -287,28 +245,26 @@ void loop() {
 }
 ```
 
-# <div align ="center"> Mechanical Frame CAD Design Overview </div>
-![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-### <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
+# Iteration #1 of the frame assembly
+![image](https://github.com/user-attachments/assets/d379a351-0e1b-4eab-8d46-dd3683de833d)
+### Some current issues include torsional wobble along the X-Axis which will be planned to replaced by a 8080 aluminum extrusion
 
-## Assembled Sample Frame
-![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
-### <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
+# Iteration #1 of the electronics
+![image](https://github.com/user-attachments/assets/8821cd9f-d167-477e-ad44-f5d820c94e56)
+### Submilimeter encoder calibration completed with the stepper motor
 
-# Documentation and Implementation:
-1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
+# Sub mill achieved
+![image](https://github.com/user-attachments/assets/9b63d809-6dc8-4725-9c5b-83a01d76cedc)
 
-# Tech Stack and Specs:
- ![Static Badge](https://img.shields.io/badge/Language-C-blue)
- ![Static Badge](https://img.shields.io/badge/Language-Python-red)
- ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
- ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
- ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
- ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
- ![Static Badge](https://img.shields.io/badge/Accuracy-Submilimeter-green)
- ![Static Badge](https://img.shields.io/badge/Repeatibility-Submilimeter-green)
+# Utilizing Garmin LIDAR-Lite v3HP for point cloud mapping:
+![image](https://github.com/user-attachments/assets/b87a08cc-a08b-48a4-9e66-ddc740305fd2)
 
-# Parts:
-1. [Parts list Wiki](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
-2. [Google Sheets containing exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
+# Utilizing 64MP Camera for photogrammetry mapping of the road:
+![image](https://github.com/user-attachments/assets/690f08b7-1356-43be-958b-edece788f500)
+
+# Next steps and milestones:
+1. Complete encoder calibration for active offset correction
+2. Calibrate LiDAR for micrometer precision.
+3. Work on parsing location and RGBA data into single points
+
 
