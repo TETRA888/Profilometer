@@ -8,7 +8,7 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the OR
 
 ## Project Leadership
 
-Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
+Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ensuring smooth integration with existing HVS systems and adaptability to future sensing technologies. With support from a dedicated team of R&D engineers, PhD researchers, and machinists, the ORP’s goal is to enable precise, actionable data analysis to inform road composition improvements and advance Caltrans' pavement research efforts.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
