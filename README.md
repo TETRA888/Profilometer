@@ -14,11 +14,6 @@ Led by **Asad Melibaev**, the project emphasizes a modular, scalable design, ens
   <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 <div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
- 
-## Table of Contents
-1. [Project Leadership](##-Key-Contributors)
-2. [Collaborating Institutions](#collaborating-institutions)
-3. [System Design Overview](#High-Level-Multi-System-Integration-Overview)
 
 ## Key Contributors
 
