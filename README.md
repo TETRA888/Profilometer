@@ -45,7 +45,10 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
 # <div align="center"> High-Level Multi System Integration Overview </div>
-![image](https://github.com/user-attachments/assets/8839c64d-6e4a-4f62-a997-80743c14610c)
+<p align = "center">
+<img src = "https://github.com/user-attachments/assets/ec05cd22-66d5-4962-a46f-863fe5caae98" alt="1-s2 0-S1996681417300354-gr6">
+</p>
+
 ### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
