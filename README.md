@@ -49,26 +49,33 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 <img src = "https://github.com/user-attachments/assets/7c7d7c18-ccd8-45b0-b79d-5b455724b221" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 
-### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads by A.M) </div>
+### <div align="center"> Figure 2.0 (Asad's Workflow) </div>
+
+# <div align="center"> High-Level Multi System Integration Overview </div>
+<p align = "center">
+<img src = "https://github.com/user-attachments/assets/ec05cd22-66d5-4962-a46f-863fe5caae98" alt="1-s2 0-S1996681417300354-gr6">
+</p>
+
+### <div align="center"> Figure 3.0 (The connection of different subsystems to collect data on stress tested roads by A.M) </div>
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
 ![ElectricalSystemDiagram(1)](https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640)
-### <div align="center"> Figure 3.0 (Abstract overview of the electronic connections by A.M) </div>
+### <div align="center"> Figure 4.0 (Abstract overview of the electronic connections by A.M) </div>
 
 # <div align ="center"> Electronic Schematic Overview </div>
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
-### <div align="center"> Figure 4.0 (Schematic of the single axial gantry control) </div>
+### <div align="center"> Figure 4.1 (Schematic of the single axial gantry control) </div>
 
 # <div align ="center"> Assembled Data Acquisition Electronics Overview </div>
 ![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
-### <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
+### <div align="center"> Figure 4.2 (The nervous system of the gantry) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
 <p align = "center">
 <img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 
-### <div align="center"> Figure 6.0 (Data flow) </div>
+### <div align="center"> Figure 5.0 (Data flow) </div>
 
 ## Sample Software Code
 ```python
@@ -291,11 +298,11 @@ void loop() {
 
 # <div align ="center"> Mechanical Frame CAD Design Overview </div>
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-### <div align = "Center" > Figure 7.0 (3D Blender Render) </div>
+### <div align = "Center" > Figure 6.0 (3D Blender Render) </div>
 
 ## Assembled Sample Frame
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
-### <div align = "Center" > Figure 8.0 (2nd Design Iteration Of Frame) </div>
+### <div align = "Center" > Figure 6.1 (2nd Design Iteration Of Frame) </div>
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
