@@ -44,9 +44,9 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ![cee_logo_125px](https://github.com/user-attachments/assets/006992ca-56f5-472b-9f67-138f40989d7f)
 ![ece_logo_125px](https://github.com/user-attachments/assets/dc39ba0e-d0da-407a-b563-ca034a3d2a44)
 
-# <div align="center"> High-Level Multi System Integration Overview </div>
+# <div align="center"> Asad's Workflow And Design Approach </div>
 <p align = "center">
-<img src = "https://github.com/user-attachments/assets/ec05cd22-66d5-4962-a46f-863fe5caae98" alt="1-s2 0-S1996681417300354-gr6">
+<img src = "https://github.com/user-attachments/assets/7c7d7c18-ccd8-45b0-b79d-5b455724b221" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 
 ### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads by A.M) </div>
