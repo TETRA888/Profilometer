@@ -49,11 +49,11 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 <img src = "https://github.com/user-attachments/assets/ec05cd22-66d5-4962-a46f-863fe5caae98" alt="1-s2 0-S1996681417300354-gr6">
 </p>
 
-### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads) </div>
+### <div align="center"> Figure 2.0 (The connection of different subsystems to collect data on stress tested roads by A.M) </div>
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
-![Electronic System Overview](https://github.com/user-attachments/assets/a1dfd340-66dc-46f6-a01b-4a3a1e8daf18)
-### <div align="center"> Figure 3.0 (Abstract overview of the electronic connections) </div>
+![ElectricalSystemDiagram(1)](https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640)
+### <div align="center"> Figure 3.0 (Abstract overview of the electronic connections by A.M) </div>
 
 # <div align ="center"> Electronic Schematic Overview </div>
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
