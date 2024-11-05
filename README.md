@@ -64,7 +64,10 @@ I would like to express my sincere gratitude to my Electrical Engineering profes
 ### <div align="center"> Figure 5.0 (The nervous system of the gantry) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
-![High Level Software](https://github.com/user-attachments/assets/9c1f1827-0924-40f6-bd45-1ba07a533b19)
+<p align = "center">
+<img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="1-s2 0-S1996681417300354-gr6">
+</p>
+
 ### <div align="center"> Figure 6.0 (Data flow) </div>
 
 ## Sample Software Code
@@ -133,10 +136,6 @@ o3d.io.write_triangle_mesh("output_mesh.ply", mesh)
 # Close the serial connection
 ser.close()
 ```
-
-# <div align ="center"> High-Level Firmware System Design Overview </div>
-![Software Design](https://github.com/user-attachments/assets/5eb6d624-5567-4f5e-95c3-a54661827108)
-### <div align="center"> Figure 7.0 (Data collection) </div>
 
 ## Sample Firmware Code
 ```cpp
@@ -292,11 +291,11 @@ void loop() {
 
 # <div align ="center"> Mechanical Frame CAD Design Overview </div>
 ![370409415-1df8b744-70b0-4bfa-a11d-afa3a9b27c9c](https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e)
-### <div align = "Center" > Figure 8.0 (3D Blender Render) </div>
+### <div align = "Center" > Figure 7.0 (3D Blender Render) </div>
 
 ## Assembled Sample Frame
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
-### <div align = "Center" > Figure 9.0 (2nd Design Iteration Of Frame) </div>
+### <div align = "Center" > Figure 8.0 (2nd Design Iteration Of Frame) </div>
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
