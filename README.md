@@ -4,7 +4,7 @@ The **Open Road Profiler (ORP)** is an advanced, open-source system engineered t
 
 ## Purpose
 
-Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated **V&V (Verification & Validation)** cycles via external encoder sensors, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California. The end goal of this project is to enable all road research labs in the world with the ability to accurately assess how their road design degrades and performs overtime.
+Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system **, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated verification via external encoder sensors and validation via a 24/7 HVS Crew, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California. The end goal of this project is to enable all road research labs in the world with the ability to accurately assess how their road design degrades and performs overtime.
 
 ## Project Leadership
 
