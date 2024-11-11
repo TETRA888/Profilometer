@@ -17,7 +17,7 @@ void loop() {
         
         // Check for the "START" command from the Python script
         if (command == "START") {
-            collectDataPoints(0, 250, 0.1); // Start collecting data move 2.5cm at 0.1 increment steps, so thats like 25 data points
+            collectDataPoints(0, 250, 0.1); // Start collecting data move 2.5cm at 0.1 increment steps, so thats like 250 data points
             sendDataToRaspberryPi();
         }
     }
