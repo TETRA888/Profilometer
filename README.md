@@ -1,6 +1,6 @@
 #  <div align="center"> Open Road Profiler (ORP) </div>
 
-The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class II precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
+The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 ## Purpose
 
@@ -11,24 +11,21 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 </p>
 <div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
 
-## Key Contributors
-
-### Core Team
-- **Asad Melibaev**  
-  *(Systems Architect)*  
+# Core Team
+- **Asad Melibaev**
   [GitHub Profile](https://github.com/TETRA888)
 
 # <div align ="center"> High-Level Electrical System Design Overview </div>
 ![ElectricalSystemDiagram(1)](https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640)
-### <div align="center"> Figure 2.0 (Abstract overview of the electronic connections by A.M) </div>
+### <div align="center"> Figure 2.0 (Abstract overview of the electronic connections) </div>
 
 # <div align ="center"> Electronic Schematic Overview </div>
 ![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
-### <div align="center"> Figure 2.1 (Schematic of the single axial gantry control by A.M) </div>
+### <div align="center"> Figure 2.1 (Schematic of the single axial gantry control) </div>
 
 # <div align ="center"> Assembled Data Acquisition Electronics Overview </div>
 ![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
-### <div align="center"> Figure 2.2 (The nervous system of the gantry assembled by A.M) </div>
+### <div align="center"> Figure 2.2 (Assembled electronics) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
 <p align = "center">
@@ -281,7 +278,7 @@ void loop() {
 1. [Exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 2. [Parts list draft](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
 
-# Profiler from 30 years ago
+# Profiler from 30 years ago:
 <p align="center"> 
 <img src="https://github.com/user-attachments/assets/5ffa2545-2cf1-40bd-9891-e65d8baee50d">
 </p>
