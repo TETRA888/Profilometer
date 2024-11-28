@@ -3,20 +3,22 @@
 const uint32_t positiveInfinity = UINT32_MAX;
 volatile long endEncoderPosition = 0;
 
+AccelStepper stepper1(1, stepPin, dirPin);
+
 /*
     Simple function that will home the block to the encoder
 */
 
 bool homeRailX(){
-    stepper.moveTo(positiveInfinity);
-    attachInterrupt(digitalPinToInterrupt(endStop0), checkEndStopStatus(), HIGH);
+    stepper1.moveTo(positiveInfinity);
+    attachInterrupt(digitalPinToInterrupt(endStop0), checkEndStopStatus, HIGH);
 
     while(endStop0 != HIGH){
-        checkEndStopStatus()
-        stepper.run();
+        checkEndStopStatus();
+        stepper1.run();
     }
 
-    stepper.stop();
+    stepper1.stop();
 
     return true;
 }
@@ -32,7 +34,7 @@ bool calibrationCheck(){
     setupEncoderInterrupts();
     encoderPosition = 0;
 
-    bool reached = moveRailX(-2500)
+    bool reached = moveRailX(-2500);
 
     if(reached && (endStop1 == HIGH)){
         bool returned = moveRailX(2500);
@@ -45,11 +47,11 @@ bool calibrationCheck(){
 
     if(endEncoderPosition == 2500){
         endEncoderPosition = 0;
-        return true
+        return true;
     }
     else{
         lightIndicatorActivation(1,1);
-        return false
+        return false;
     }
 }
 

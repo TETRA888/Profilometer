@@ -22,7 +22,7 @@ void setup(){
     setupLaser();
     lightIndicatorSetup(); // Indicator lights for live status updates
     calibrationCheck(); // Do a calibration run when turned on
-    lightIndicatorActivation(3); // Green light indicating that everything is functioning
+    lightIndicatorActivation(3, 1); // Green light indicating that everything is functioning
 }
 
 /*
@@ -34,7 +34,7 @@ void loop(){
     lightIndicatorActivation(2,0); // Turn off Yellow light indicator
     String command = Serial.readStringUntil('\n');
     if(command == "START"){
-      collectDataPoints(0, 2500, 0.1) // This is 25000 data points over the span of 2.5 meters
+      collectDataPoints(0, 2500, 0.1); // This is 25000 data points over the span of 2.5 meters
       sendDataToRaspberryPi(); // Send an status update to Raspberry Pi
     }
     else if (command == "CALIBRATE"){

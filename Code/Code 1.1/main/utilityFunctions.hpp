@@ -7,6 +7,7 @@
 #include "endStopOutput.hpp"
 #include "encoderOutput.hpp"
 #include "statusIndicators.hpp"
+#include "laserOutput.hpp"
 
 extern const uint32_t positiveInfinity;
 extern volatile long endEncoderPosition;

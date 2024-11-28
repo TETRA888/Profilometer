@@ -13,6 +13,6 @@ extern int lightPin3;
 extern int gndPin3;
 
 void lightIndicatorSetup();
-void lightIndicatorActivation(int status);
+void lightIndicatorActivation(int status, int activation);
 
 #endif

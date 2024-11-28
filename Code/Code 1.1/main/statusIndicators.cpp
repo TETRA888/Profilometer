@@ -22,13 +22,12 @@ void lightIndicatorSetup(){
     pinMode(gndPin2, OUTPUT);
     pinMode(gndPin2, OUTPUT);
 
-    digtialWrite(lightPin1, LOW);
-    digtialWrite(lightPin2, LOW);
-    digtialWrite(lightPin3, LOW);
-
-    digtialWrite(gndPin1, LOW);
-    digtialWrite(gndPin2, LOW);
-    digtialWrite(gndPin3, LOW);
+    digitalWrite(lightPin1, LOW);
+    digitalWrite(lightPin2, LOW);
+    digitalWrite(lightPin3, LOW);
+    digitalWrite(gndPin1, LOW);
+    digitalWrite(gndPin2, LOW);
+    digitalWrite(gndPin3, LOW);
 }
 
 /*
@@ -67,7 +66,5 @@ void lightIndicatorActivation(int status, int activation){
             else{
                 digitalWrite(lightPin3, LOW);
             }
-            
-        default: // Do nothing
     }
 }
