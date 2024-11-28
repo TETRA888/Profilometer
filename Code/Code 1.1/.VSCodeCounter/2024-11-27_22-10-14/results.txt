@@ -1,0 +1,38 @@
+Date : 2024-11-27 22:10:14
+Directory : c:\Users\tetra\OneDrive\Desktop\main
+Total : 13 files,  271 codes, 81 comments, 93 blanks, all 445 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         12 |        236 |         71 |         87 |        394 |
+| Arduino  |          1 |         35 |         10 |          6 |         51 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                         | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                            |         13 |        271 |         81 |         93 |        445 |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                     | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\tetra\OneDrive\Desktop\main\encoderOutput.cpp       | C++      |         27 |         11 |          8 |         46 |
+| c:\Users\tetra\OneDrive\Desktop\main\encoderOutput.hpp       | C++      |         11 |          0 |          4 |         15 |
+| c:\Users\tetra\OneDrive\Desktop\main\endStopOutput.cpp       | C++      |         11 |          6 |          7 |         24 |
+| c:\Users\tetra\OneDrive\Desktop\main\endStopOutput.hpp       | C++      |          8 |          0 |          5 |         13 |
+| c:\Users\tetra\OneDrive\Desktop\main\laserOutput.cpp         | C++      |         12 |          6 |          5 |         23 |
+| c:\Users\tetra\OneDrive\Desktop\main\laserOutput.hpp         | C++      |          9 |          0 |          4 |         13 |
+| c:\Users\tetra\OneDrive\Desktop\main\main.ino                | Arduino  |         35 |         10 |          6 |         51 |
+| c:\Users\tetra\OneDrive\Desktop\main\statusIndicators.cpp    | C++      |         47 |         15 |         11 |         73 |
+| c:\Users\tetra\OneDrive\Desktop\main\statusIndicators.hpp    | C++      |         12 |          0 |          6 |         18 |
+| c:\Users\tetra\OneDrive\Desktop\main\stepperMotorControl.cpp | C++      |         22 |         16 |         12 |         50 |
+| c:\Users\tetra\OneDrive\Desktop\main\stepperMotorControl.hpp | C++      |         12 |          0 |          4 |         16 |
+| c:\Users\tetra\OneDrive\Desktop\main\utilityFunctions.cpp    | C++      |         50 |         17 |         17 |         84 |
+| c:\Users\tetra\OneDrive\Desktop\main\utilityFunctions.hpp    | C++      |         15 |          0 |          4 |         19 |
+| Total                                                        |          |        271 |         81 |         93 |        445 |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
