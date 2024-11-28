@@ -24,7 +24,7 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 ### <div align="center"> Figure 2.1 (Schematic of the single axial gantry control) </div>
 
 # <div align ="center"> Assembled Data Acquisition Electronics Overview </div>
-![image](https://github.com/user-attachments/assets/d127bfc2-c86a-42aa-ab2a-80563844572e)
+![image](https://github.com/user-attachments/assets/57f5ed04-3421-409e-b34d-de18fb0aa7bf)
 ### <div align="center"> Figure 2.2 (Assembled electronics) </div>
 
 # <div align ="center"> High-Level Software System Design Overview </div>
