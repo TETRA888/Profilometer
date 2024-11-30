@@ -1,46 +1,50 @@
+#include "stepperMotorControl.hpp"
+#include "endStopOutput.hpp"
+#include "encoderOutput.hpp"
+#include "laserOutput.hpp"
+#include "statusIndicators.hpp"
+#include "utilityFunctions.hpp"
+
 /*
-* Open Road Profiler firmware written by Asad Melibaev
+    This is the main setup function which will setup the peripherals of all of the functions
 */
 
-#include "GantryControl.h" // Contains driver and induction sensor controls
-#include "LiDARSystem.h" // Contains only the LiDAR controls
+void setup(){
+    Serial.begin(115200); // Begin serial communication
 
-void setup() {
-    Serial.begin(115200);
-    setupGantry(); // Code for gantry setup
-    setupLidar();  // Code for LiDAR setup
+    /*
+      @param speed Setting speed to 2000 mm/s
+      @param acceleration Setting acceleration to 1000mm/s^2
+    */
+    setupStepperMotors(2000, 1000);
+    setupEncoder();
+    setupEndStops();
+    setupLaser();
+    lightIndicatorSetup(); // Indicator lights for live status updates
+    calibrationCheck(); // Do a calibration run when turned on
+    lightIndicatorActivation(3, 1); // Green light indicating that everything is functioning
 }
 
-void loop() {
-    if (Serial.available() > 0) {
-        String command = Serial.readStringUntil('\n');
-        
-        // Check for the "START" command from the Python script
-        if (command == "START") {
-            collectDataPoints(0, 250, 0.1); // Start collecting data move 2.5cm at 0.1 increment steps, so thats like 250v data points
-            sendDataToRaspberryPi();
-        }
+/*
+  This is where we will be constantly monitoring the actions that the Raspberry Pi is requesting for us to perform
+*/
+
+void loop(){
+  if (Serial.available() > 0){
+    lightIndicatorActivation(2,0); // Turn off Yellow light indicator
+    String command = Serial.readStringUntil('\n');
+    if(command == "START"){
+      collectDataPoints(0, 2500, 0.1); // This is 25000 data points over the span of 2.5 meters
+      sendDataToRaspberryPi(); // Send an status update to Raspberry Pi
     }
-}
-
-void collectDataPoints(float startX, float endX, float stepSize) {
-    for (float x = startX; x <= endX; x += stepSize) {
-        move_rail_x(x);
-        delay(1); // Stabilize the gantry
-        readLidar();
-
-        // Send data in the structured format
-        Serial.print("DATA:");
-        Serial.print(x);        // X value
-        Serial.print(",");
-        Serial.print(0);        // Y value (always 0)
-        Serial.print(",");
-        Serial.print(distanceCM); // Z value from LiDAR
-        Serial.println();
+    else if (command == "CALIBRATE"){
+      calibrationCheck();
     }
+    else if (command == "HOME"){
+      homeRailX();
+    }
+  }
+  else{
+    lightIndicatorActivation(2,1); // Yellow light if no serial connection
+  }
 }
-
-void sendDataToRaspberryPi() {
-    Serial.println("Data collection complete!");
-}
-
