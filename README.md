@@ -35,7 +35,7 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 ### <div align="center"> Figure 3.0 (Data flow) </div>
 
 
-## Gui for version 1.1
+## Simple Gui for version 1.1
 ![image](https://github.com/user-attachments/assets/679ff62e-25ae-47dd-9d94-3f559744e15a)
 
 ## Sample Software Code
