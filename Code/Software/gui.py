@@ -45,9 +45,8 @@ ttk.Button(mainframe, text = "Scan", command = lambda: startScanning(ser)).grid(
 ttk.Label(mainframe, text = "This function will move the laser head back to the start position at X = 0").grid(column = 0, row = 3, sticky = (W, E))
 ttk.Button(mainframe, text = "Home", command = lambda: startHome(ser)).grid(column = 0, row = 4, sticky = (W, E))
 
-ttk.Label(mainframe, text = "This function will check how calibrated the gantry is").grid(column = 0, row = 5, sticky = (W, E))
+ttk.Label(mainframe, text = "This function checks gantry calibration").grid(column = 0, row = 5, sticky = (W, E))
 ttk.Button(mainframe, text = "Calibrate", command = lambda: startCalibrate(ser)).grid(column = 0, row = 6, sticky = (W, E))
-
 
 # This simply goes through all of the children widgets within the mainframe and adds 
 # padding around them to make it less scrunched together

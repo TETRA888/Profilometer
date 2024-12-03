@@ -1,0 +1,54 @@
+Date : 2024-11-29 19:43:48
+Directory : d:\Desktop\ProfilometerProject\Code
+Total : 20 files,  379 codes, 125 comments, 145 blanks, all 649 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         12 |        237 |         71 |         86 |        394 |
+| Markdown |          4 |         58 |          0 |         26 |         84 |
+| Python   |          2 |         48 |         44 |         27 |        119 |
+| Arduino  |          1 |         35 |         10 |          6 |         51 |
+| JSON     |          1 |          1 |          0 |          0 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                    |         20 |        379 |        125 |        145 |        649 |
+| Firmware                                                                                             |         18 |        331 |         81 |        118 |        530 |
+| Firmware\main                                                                                        |         18 |        331 |         81 |        118 |        530 |
+| Firmware\main (Files)                                                                                |         13 |        272 |         81 |         92 |        445 |
+| Firmware\main\.VSCodeCounter                                                                         |          5 |         59 |          0 |         26 |         85 |
+| Firmware\main\.VSCodeCounter\2024-11-27_22-10-14                                                     |          5 |         59 |          0 |         26 |         85 |
+| Software                                                                                             |          2 |         48 |         44 |         27 |        119 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                             | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\details.md      | Markdown |         22 |          0 |          6 |         28 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\diff-details.md | Markdown |          9 |          0 |          6 |         15 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\diff.md         | Markdown |         12 |          0 |          7 |         19 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\results.json    | JSON     |          1 |          0 |          0 |          1 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\results.md      | Markdown |         15 |          0 |          7 |         22 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\encoderOutput.cpp                                  | C++      |         27 |         11 |          8 |         46 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\encoderOutput.hpp                                  | C++      |         11 |          0 |          4 |         15 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\endStopOutput.cpp                                  | C++      |         11 |          6 |          7 |         24 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\endStopOutput.hpp                                  | C++      |          8 |          0 |          5 |         13 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\laserOutput.cpp                                    | C++      |         12 |          6 |          5 |         23 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\laserOutput.hpp                                    | C++      |          9 |          0 |          4 |         13 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\main.ino                                           | Arduino  |         35 |         10 |          6 |         51 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\statusIndicators.cpp                               | C++      |         46 |         15 |          9 |         70 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\statusIndicators.hpp                               | C++      |         12 |          0 |          6 |         18 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\stepperMotorControl.cpp                            | C++      |         22 |         16 |         12 |         50 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\stepperMotorControl.hpp                            | C++      |         12 |          0 |          4 |         16 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\utilityFunctions.cpp                               | C++      |         51 |         17 |         18 |         86 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\utilityFunctions.hpp                               | C++      |         16 |          0 |          4 |         20 |
+| d:\Desktop\ProfilometerProject\Code\Software\gui.py                                                  | Python   |         21 |         20 |         16 |         57 |
+| d:\Desktop\ProfilometerProject\Code\Software\utilityFunctions.py                                     | Python   |         27 |         24 |         11 |         62 |
+| Total                                                                                                |          |        379 |        125 |        145 |        649 |
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

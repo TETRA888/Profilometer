@@ -1,0 +1,73 @@
+Date : 2024-11-29 19:43:21
+Directory : d:\Desktop\ProfilometerProject\Code
+Total : 35 files,  631 codes, 125 comments, 223 blanks, all 979 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Markdown |         16 |        307 |          0 |        104 |        411 |
+| C++      |         12 |        237 |         71 |         86 |        394 |
+| Python   |          2 |         48 |         44 |         27 |        119 |
+| Arduino  |          1 |         35 |         10 |          6 |         51 |
+| JSON     |          4 |          4 |          0 |          0 |          4 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                    |         35 |        631 |        125 |        223 |        979 |
+| .VSCodeCounter                                                                                       |         15 |        252 |          0 |         78 |        330 |
+| .VSCodeCounter\2024-11-29_19-42-19                                                                   |          5 |         70 |          0 |         26 |         96 |
+| .VSCodeCounter\2024-11-29_19-42-25                                                                   |          5 |         80 |          0 |         26 |        106 |
+| .VSCodeCounter\2024-11-29_19-42-37                                                                   |          5 |        102 |          0 |         26 |        128 |
+| Firmware                                                                                             |         18 |        331 |         81 |        118 |        530 |
+| Firmware\main                                                                                        |         18 |        331 |         81 |        118 |        530 |
+| Firmware\main (Files)                                                                                |         13 |        272 |         81 |         92 |        445 |
+| Firmware\main\.VSCodeCounter                                                                         |          5 |         59 |          0 |         26 |         85 |
+| Firmware\main\.VSCodeCounter\2024-11-27_22-10-14                                                     |          5 |         59 |          0 |         26 |         85 |
+| Software                                                                                             |          2 |         48 |         44 |         27 |        119 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                             | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\details.md                    | Markdown |         27 |          0 |          6 |         33 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\diff-details.md               | Markdown |          9 |          0 |          6 |         15 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\diff.md                       | Markdown |         12 |          0 |          7 |         19 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\results.json                  | JSON     |          1 |          0 |          0 |          1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\results.md                    | Markdown |         21 |          0 |          7 |         28 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\details.md                    | Markdown |         11 |          0 |          6 |         17 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\diff-details.md               | Markdown |         29 |          0 |          6 |         35 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\diff.md                       | Markdown |         25 |          0 |          7 |         32 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\results.json                  | JSON     |          1 |          0 |          0 |          1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\results.md                    | Markdown |         14 |          0 |          7 |         21 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\details.md                    | Markdown |         27 |          0 |          6 |         33 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\diff-details.md               | Markdown |         29 |          0 |          6 |         35 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\diff.md                       | Markdown |         24 |          0 |          7 |         31 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\results.json                  | JSON     |          1 |          0 |          0 |          1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\results.md                    | Markdown |         21 |          0 |          7 |         28 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\details.md      | Markdown |         22 |          0 |          6 |         28 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\diff-details.md | Markdown |          9 |          0 |          6 |         15 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\diff.md         | Markdown |         12 |          0 |          7 |         19 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\results.json    | JSON     |          1 |          0 |          0 |          1 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\.VSCodeCounter\2024-11-27_22-10-14\results.md      | Markdown |         15 |          0 |          7 |         22 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\encoderOutput.cpp                                  | C++      |         27 |         11 |          8 |         46 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\encoderOutput.hpp                                  | C++      |         11 |          0 |          4 |         15 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\endStopOutput.cpp                                  | C++      |         11 |          6 |          7 |         24 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\endStopOutput.hpp                                  | C++      |          8 |          0 |          5 |         13 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\laserOutput.cpp                                    | C++      |         12 |          6 |          5 |         23 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\laserOutput.hpp                                    | C++      |          9 |          0 |          4 |         13 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\main.ino                                           | Arduino  |         35 |         10 |          6 |         51 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\statusIndicators.cpp                               | C++      |         46 |         15 |          9 |         70 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\statusIndicators.hpp                               | C++      |         12 |          0 |          6 |         18 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\stepperMotorControl.cpp                            | C++      |         22 |         16 |         12 |         50 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\stepperMotorControl.hpp                            | C++      |         12 |          0 |          4 |         16 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\utilityFunctions.cpp                               | C++      |         51 |         17 |         18 |         86 |
+| d:\Desktop\ProfilometerProject\Code\Firmware\main\utilityFunctions.hpp                               | C++      |         16 |          0 |          4 |         20 |
+| d:\Desktop\ProfilometerProject\Code\Software\gui.py                                                  | Python   |         21 |         20 |         16 |         57 |
+| d:\Desktop\ProfilometerProject\Code\Software\utilityFunctions.py                                     | Python   |         27 |         24 |         11 |         62 |
+| Total                                                                                                |          |        631 |        125 |        223 |        979 |
++------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

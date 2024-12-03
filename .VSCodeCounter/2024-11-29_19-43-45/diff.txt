@@ -1,0 +1,44 @@
+Date : 2024-11-29 19:43:45
+Directory : d:\Desktop\ProfilometerProject\Code
+Total : 15 files,  -252 codes, 0 comments, -78 blanks, all -330 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| JSON     |          3 |         -3 |          0 |          0 |         -3 |
+| Markdown |         12 |       -249 |          0 |        -78 |       -327 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |         15 |       -252 |          0 |        -78 |       -330 |
+| .VSCodeCounter                                                                         |         15 |       -252 |          0 |        -78 |       -330 |
+| .VSCodeCounter\2024-11-29_19-42-19                                                     |          5 |        -70 |          0 |        -26 |        -96 |
+| .VSCodeCounter\2024-11-29_19-42-25                                                     |          5 |        -80 |          0 |        -26 |       -106 |
+| .VSCodeCounter\2024-11-29_19-42-37                                                     |          5 |       -102 |          0 |        -26 |       -128 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                               | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\details.md      | Markdown |        -27 |          0 |         -6 |        -33 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\diff-details.md | Markdown |         -9 |          0 |         -6 |        -15 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\diff.md         | Markdown |        -12 |          0 |         -7 |        -19 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\results.json    | JSON     |         -1 |          0 |          0 |         -1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-19\results.md      | Markdown |        -21 |          0 |         -7 |        -28 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\details.md      | Markdown |        -11 |          0 |         -6 |        -17 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\diff-details.md | Markdown |        -29 |          0 |         -6 |        -35 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\diff.md         | Markdown |        -25 |          0 |         -7 |        -32 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\results.json    | JSON     |         -1 |          0 |          0 |         -1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-25\results.md      | Markdown |        -14 |          0 |         -7 |        -21 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\details.md      | Markdown |        -27 |          0 |         -6 |        -33 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\diff-details.md | Markdown |        -29 |          0 |         -6 |        -35 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\diff.md         | Markdown |        -24 |          0 |         -7 |        -31 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\results.json    | JSON     |         -1 |          0 |          0 |         -1 |
+| d:\Desktop\ProfilometerProject\Code\.VSCodeCounter\2024-11-29_19-42-37\results.md      | Markdown |        -21 |          0 |         -7 |        -28 |
+| Total                                                                                  |          |       -252 |          0 |        -78 |       -330 |
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
