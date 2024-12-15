@@ -275,6 +275,8 @@ void loop() {
 # Tech Stack and Specs:
  ![Static Badge](https://img.shields.io/badge/Language-C-blue)
  ![Static Badge](https://img.shields.io/badge/Language-Python-red)
+ ![Static Badge](https://img.shields.io/badge/Tech-RaspberryPi-hotpink)
+ ![Static Badge](https://img.shields.io/badge/Tech-Arduino-darkblue)
  ![Static Badge](https://img.shields.io/badge/Tech-LiDAR-purple)
  ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
  ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
