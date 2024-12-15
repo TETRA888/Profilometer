@@ -265,6 +265,10 @@ void loop() {
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
 ### <div align = "Center" > Figure 4.1 (2nd Design Iteration Of Frame) </div>
 
+## Electronics mounted On Frame:
+![image](https://github.com/user-attachments/assets/6b384ffd-7b8c-4870-b5a2-fc3c7fe74361)
+### <div align = "Center"> Figure 4.2 (Frame with Electronics) </div>
+
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
