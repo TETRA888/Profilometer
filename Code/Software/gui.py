@@ -1,7 +1,10 @@
 import utilityFunctions
+import graph
 import tkinter
+from PIL import ImageTk, Image
 
 from utilityFunctions import connect, startScanning, startCalibrate, startHome, sendData, moveScanless, scanMoveless
+from graph import graphProfile
 from tkinter import *
 from tkinter import ttk
 
@@ -55,6 +58,9 @@ ttk.Button(mainframe, text = "Send", command = lambda: sendData()).grid(column =
 ttk.Label(mainframe, text = "Debugging functions").grid(column = 0, row = 9, sticky = (W,E))
 ttk.Button(mainframe, text = "Move Without Scan", command = lambda: moveScanless()).grid(column = 0, row = 10, sticky = (W,E))
 ttk.Button(mainframe, text = "Scan Without Move", command = lambda: scanMoveless()).grid(column = 0, row = 11, sticky = (W,E))
+
+graph = PhotoImage(file = 'profileGraph.png')
+ttk.Label(mainframe, image = graph).grid(column = 0, row = 12, sticky = (W,E))
 
 # This simply goes through all of the children widgets within the mainframe and adds 
 # padding around them to make it less scrunched together
