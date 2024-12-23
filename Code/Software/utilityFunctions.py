@@ -60,3 +60,12 @@ def startHome(ser):
 
 #     elif(command == "HOME"):
 #         startHome(ser)
+
+def sendData(): #ADD ACTUAL FUNCTIONALITY ONCE GRAPH IS COMPLETE
+    print("Sending Data via Rest Api")
+
+def scanMoveless():
+    print("Scanning without moving")
+
+def moveScanless():
+    print("Moving without scanning")
