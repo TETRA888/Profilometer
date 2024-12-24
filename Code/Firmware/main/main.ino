@@ -43,6 +43,17 @@ void loop(){
     else if (command == "HOME"){
       homeRailX();
     }
+    /* 
+    debugging commands
+    */
+    else if (command == "SCANMOVELESS"){
+      scanMoveless(0, 2500, 0.1);
+      sendDataToRaspberryPi();
+    }
+    else if (command == "MOVESCANLESS"){
+      moveScanless(0, 2500, 0.1);
+      sendDataToRaspberryPi();
+    }
   }
   else{
     lightIndicatorActivation(2,1); // Yellow light if no serial connection

@@ -78,9 +78,34 @@ void collectDataPoints(float startX, float endX, float stepSize){
 }
 
 /*
+  debugging functions, same as collectDataPoints, but without moving and scanning elements, respectively
+*/
+
+void scanMoveless(float startX, float endX, float stepSize){
+  for (float x = startX; x <= endX; x += stepSize){
+    readLaserValue();
+
+    Serial.print("DATA:");
+    Serial.print(x);
+    Serial.println();
+  }
+}
+
+void moveScanless(float startX, float endX, float stepSize){
+  for (float x = startX; x <= endX; x += stepSize){
+      moveRailX(stepSize);
+      Serial.println("moving...");
+    }
+}
+
+/*
     Simple function that tells the Raspberry Pi the status of the data collection
 */
 
 void sendDataToRaspberryPi(){
     Serial.println("DATA_COLLECTION_COMPLETE");
 }
+
+
+
+

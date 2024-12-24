@@ -16,5 +16,7 @@ bool homeRailX();
 bool calibrationCheck();
 void collectDataPoints(float startX, float endX, float stepSize);
 void sendDataToRaspberryPi();
+void scanMoveless(float startX, float endX, float stepSize);
+void moveScanless(float startX, float endX, float stepSize);
 
 #endif
