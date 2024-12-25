@@ -64,8 +64,10 @@ def startHome(ser):
 def sendData(): #ADD ACTUAL FUNCTIONALITY ONCE GRAPH IS COMPLETE
     print("Sending Data via Rest Api")
 
-def scanMoveless():
+def scanMoveless(ser):
     print("Scanning without moving")
+    ser.write(b'SCANMOVELESS\n')
 
-def moveScanless():
+def moveScanless(ser):
     print("Moving without scanning")
+    ser.write(b'MOVESCANLESS\n')
