@@ -266,7 +266,7 @@ void loop() {
 ### <div align = "Center" > Figure 4.1 (2nd Design Iteration Of Frame) </div>
 
 ## Electronics mounted On Frame:
-![image](https://github.com/user-attachments/assets/6b384ffd-7b8c-4870-b5a2-fc3c7fe74361)
+![image](https://github.com/user-attachments/assets/0f8856cc-a083-4535-b870-cc8844e09d20)
 ### <div align = "Center"> Figure 4.2 (Frame with Electronics) </div>
 
 # Documentation and Implementation:
