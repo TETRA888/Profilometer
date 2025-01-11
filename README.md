@@ -59,7 +59,7 @@ To integrate ORP’s point cloud data into OpenUSD, the UsdGeomPoints schema wil
 
 
 ## Simple Gui for version 1.1
-![image](https://github.com/user-attachments/assets/679ff62e-25ae-47dd-9d94-3f559744e15a)
+![unnamed](https://github.com/user-attachments/assets/32ccac83-22e0-466b-923a-43ae7843b1e9)
 
 ## Sample Software Code
 ```python
