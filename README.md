@@ -4,29 +4,24 @@ The **Open Road Profiler (ORP)** is an advanced, open-source system engineered t
 **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 ## Table of Contents
-
-## Table of Contents
-
 - [Introduction](#open-road-profiler-orp)
 - [Purpose](#purpose)
-- [Future Work](#future-work)
+- [Future Work](#future-work-and-integrating-into-openusd-for-more-efficient-road-degradation-tracking-in-california)
 - [Core Team](#core-team)
-- [System Design](#system-design)
-  - [Electrical Design](#high-level-electrical-system-design-overview)
+- [Electrical System Design](#high-level-electrical-system-design-overview)
   - [Schematic Overview](#electronic-schematic-overview)
   - [Assembled Electronics](#assembled-data-acquisition-electronics-overview)
-  - [Software Design](#high-level-software-system-design-overview)
-- [Code Samples](#code-samples)
-  - [Software Code](#sample-software-code)
-  - [Firmware Code](#sample-firmware-code)
-- [Mechanical Design](#mechanical-design)
-  - [CAD Design](#mechanical-frame-cad-design-overview)
+- [Software System Design](#high-level-software-system-design-overview)
+  - [Simple GUI for Version 1.1](#simple-gui-for-version-11)
+  - [Sample Software Code](#sample-software-code)
+  - [Sample Firmware Code](#sample-firmware-code)
+- [Mechanical Design](#mechanical-frame-cad-design-overview)
   - [Assembled Frame](#assembled-sample-frame)
   - [Mounted Electronics](#electronics-mounted-on-frame)
-- [Documentation](#documentation)
-- [Tech Stack](#tech-stack-and-specifications)
+- [Documentation](#documentation-and-implementation)
+- [Tech Stack and Specs](#tech-stack-and-specs)
 - [Parts](#parts)
-- [Historical Context](#historical-context)
+- [Historical Context](#profiler-from-30-years-ago)
 
 ## Purpose
 
