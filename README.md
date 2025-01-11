@@ -5,24 +5,31 @@ The **Open Road Profiler (ORP)** is an advanced, open-source system engineered t
 
 ## Table of Contents
 
+## Table of Contents
+
+- [Introduction](#open-road-profiler-orp)
 - [Purpose](#purpose)
-- [Future Work and Integrating into OpenUSD](#future-work-and-integrating-into-openusd)
+- [Future Work and Integrating into OpenUSD for More Efficient Road Degradation Tracking in California](#future-work-and-integrating-into-openusd-for-more-efficient-road-degradation-tracking-in-california)
 - [Core Team](#core-team)
-- [High-Level Electrical System Design Overview](#high-level-electrical-system-design-overview)
-- [Electronic Schematic Overview](#electronic-schematic-overview)
-- [Assembled Data Acquisition Electronics Overview](#assembled-data-acquisition-electronics-overview)
-- [High-Level Software System Design Overview](#high-level-software-system-design-overview)
-- [Simple GUI for Version 1.1](#simple-gui-for-version-11)
-- [Sample Software Code](#sample-software-code)
-- [Sample Firmware Code](#sample-firmware-code)
-- [Mechanical Frame CAD Design Overview](#mechanical-frame-cad-design-overview)
+- [System Design Overviews](#system-design-overviews)
+  - [High-Level Electrical System Design Overview](#high-level-electrical-system-design-overview)
+  - [Electronic Schematic Overview](#electronic-schematic-overview)
+  - [Assembled Data Acquisition Electronics Overview](#assembled-data-acquisition-electronics-overview)
+  - [High-Level Software System Design Overview](#high-level-software-system-design-overview)
+- [Software and Firmware Code Samples](#software-and-firmware-code-samples)
+  - [Sample Software Code](#sample-software-code)
+  - [Sample Firmware Code](#sample-firmware-code)
+- [Mechanical Frame Design](#mechanical-frame-design)
+  - [Mechanical Frame CAD Design Overview](#mechanical-frame-cad-design-overview)
   - [Assembled Sample Frame](#assembled-sample-frame)
   - [Electronics Mounted on Frame](#electronics-mounted-on-frame)
 - [Documentation and Implementation](#documentation-and-implementation)
-- [Tech Stack and Specs](#tech-stack-and-specs)
-- [Parts](#parts)
-- [Profiler from 30 Years Ago](#profiler-from-30-years-ago)
-
+  - [Wiki](#wiki)
+- [Tech Stack and Specifications](#tech-stack-and-specifications)
+- [Parts and Components](#parts-and-components)
+  - [Exact Quantities and Parts Needed for Single Axial System](#exact-quantities-and-parts-needed-for-single-axial-system)
+  - [Parts List Draft](#parts-list-draft)
+- [Historical Context](#historical-context)
 
 ## Purpose
 
