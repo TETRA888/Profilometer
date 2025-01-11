@@ -31,7 +31,7 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 </p>
 <div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
 
-## Future Work and Integrating into OpenUSD for more efficient road degradation tracking in California
+## Future Work and Integrating OpenUSD for more efficient road degradation tracking in California
 To integrate ORP’s point cloud data into OpenUSD, the UsdGeomPoints schema will be used to represent sub-millimeter road surface deformations. Each point will include attributes like position (X,Y,ZX,Y,Z), normals, color, and custom degradation metrics. The data pipeline starts with preprocessing raw outputs from ORP (e.g., .txt, .ply), which are then converted into USD files using Python’s USD libraries. Surface reconstruction algorithms, such as Poisson reconstruction, can transform point clouds into detailed meshes stored as UsdGeomMesh. Time-series visualization of road degradation over simulated traffic cycles will leverage USD’s animation capabilities, enabling dynamic analysis. Once generated, USD files can be validated with tools like USDView or NVIDIA Omniverse for real-time visualization and shared for collaborative research. This pipeline enables scalable, accurate modeling of road performance, paving the way for global adoption in road research.
 
 # Core Team
