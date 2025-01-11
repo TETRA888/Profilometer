@@ -1,7 +1,7 @@
 #  <div align="center"> Open Road Profiler (ORP) </div>
 
 The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and 
-**optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
+**optical measurement** technologies to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 ## Table of Contents
 - [Purpose](#purpose)
