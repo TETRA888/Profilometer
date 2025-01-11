@@ -4,7 +4,6 @@ The **Open Road Profiler (ORP)** is an advanced, open-source system engineered t
 **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 ## Table of Contents
-- [Introduction](#open-road-profiler-orp)
 - [Purpose](#purpose)
 - [Future Work](#future-work-and-integrating-into-openusd-for-more-efficient-road-degradation-tracking-in-california)
 - [Core Team](#core-team)
