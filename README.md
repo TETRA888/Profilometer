@@ -1,6 +1,28 @@
 #  <div align="center"> Open Road Profiler (ORP) </div>
 
-The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and **optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
+The **Open Road Profiler (ORP)** is an advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. This precision gantry platform leverages a robust integration of **computer vision**, **LiDAR sensing**, and 
+**optical measurement** technologies, including a Garmin LiDAR-Lite v3HP, a 64MP high-resolution camera, and a Class-3B precision laser, to capture sub-millimeter road surface deformations under simulated traffic loads.
+
+## Table of Contents
+
+- [Purpose](#purpose)
+- [Future Work and Integrating into OpenUSD](#future-work-and-integrating-into-openusd)
+- [Core Team](#core-team)
+- [High-Level Electrical System Design Overview](#high-level-electrical-system-design-overview)
+- [Electronic Schematic Overview](#electronic-schematic-overview)
+- [Assembled Data Acquisition Electronics Overview](#assembled-data-acquisition-electronics-overview)
+- [High-Level Software System Design Overview](#high-level-software-system-design-overview)
+- [Simple GUI for Version 1.1](#simple-gui-for-version-11)
+- [Sample Software Code](#sample-software-code)
+- [Sample Firmware Code](#sample-firmware-code)
+- [Mechanical Frame CAD Design Overview](#mechanical-frame-cad-design-overview)
+  - [Assembled Sample Frame](#assembled-sample-frame)
+  - [Electronics Mounted on Frame](#electronics-mounted-on-frame)
+- [Documentation and Implementation](#documentation-and-implementation)
+- [Tech Stack and Specs](#tech-stack-and-specs)
+- [Parts](#parts)
+- [Profiler from 30 Years Ago](#profiler-from-30-years-ago)
+
 
 ## Purpose
 
