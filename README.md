@@ -12,9 +12,13 @@
 An advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. Leveraging a robust integration of **computer vision**, **LiDAR sensing**, and 
 **optical measurement** technologies to capture sub-millimeter road surface deformations under simulated traffic loads.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0f8856cc-a083-4535-b870-cc8844e09d20" alt="title image" width="550">
+</div>
+<div align = "Center"> Figure 4.2 (Frame with Electronics) </div>
+
 ## Table of Contents
 - [Purpose](#purpose)
-- [Future Work](#future-work-and-integrating-into-openusd-for-more-efficient-road-degradation-tracking-in-california)
 - [Core Team](#core-team)
 - [Electrical System Design](#high-level-electrical-system-design-overview)
   - [Schematic Overview](#electronic-schematic-overview)
@@ -36,32 +40,51 @@ An advanced, open-source system engineered to map the degradation of theoretical
 Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated verification via external encoder sensors and validation via a 24/7 HVS Crew, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California. The end goal of this project is to enable all road research labs in the world with the ability to accurately assess how their road design degrades and performs overtime.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6">
+  <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6" width="500">
 </p>
 <div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
 
 
+## How to Get Started
+1. Clone the repository
+```bash
+git clone https://github.com/TETRA888/Profilometer.git
+cd Profilometer
+```
+2. Set up the hardware as described in the [Hardware Design section](#mechanical-frame-cad-design-overview)
+* [Parts list](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
+
+## Sofware Design
+
+# <div align ="center"> Software Design Overview/Simple Gui 1.1</div>
+<p align="center">
+ <img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="1-s2 0-S1996681417300354-gr6">
+ <img src = "https://github.com/user-attachments/assets/32ccac83-22e0-466b-923a-43ae7843b1e9" alt="1-s2 0-S1996681417300354-gr6">
+</p>
+
+
+
+## Hardware Design
+
+# <div align ="center"> High-Level Electrical System Design/Schematic </div>
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640" alt="System Design" width="200">
+  <img src="https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c" alt="Electrical Schematic" width="200">
+</div>
+
 
 # Core Team
-- **Asad Melibaev**
-  [GitHub Profile](https://github.com/TETRA888)
+- [**Asad Melibaev**](https://github.com/TETRA888)
+- [**Adam Wu**](https://github.com/adamhwu)
 
-# <div align ="center"> High-Level Electrical System Design Overview </div>
-![ElectricalSystemDiagram(1)](https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640)
-### <div align="center"> Figure 2.0 (Abstract overview of the electronic connections) </div>
 
-# <div align ="center"> Electronic Schematic Overview </div>
-![image](https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c)
-### <div align="center"> Figure 2.1 (Schematic of the single axial gantry control) </div>
 
 # <div align ="center"> Assembled Data Acquisition Electronics Overview </div>
 ![image](https://github.com/user-attachments/assets/57f5ed04-3421-409e-b34d-de18fb0aa7bf)
 ### <div align="center"> Figure 2.2 (Assembled electronics) </div>
 
-# <div align ="center"> High-Level Software System Design Overview </div>
-<p align = "center">
-<img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="1-s2 0-S1996681417300354-gr6">
-</p>
+
 
 ### <div align="center"> Figure 3.0 (Data flow) </div>
 
@@ -78,9 +101,7 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 ![image](https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5)
 ### <div align = "Center" > Figure 4.1 (2nd Design Iteration Of Frame) </div>
 
-## Electronics mounted On Frame:
-![image](https://github.com/user-attachments/assets/0f8856cc-a083-4535-b870-cc8844e09d20)
-### <div align = "Center"> Figure 4.2 (Frame with Electronics) </div>
+
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
@@ -90,13 +111,8 @@ To integrate ORP’s point cloud data into OpenUSD, the UsdGeomPoints schema wil
 
 ![image](https://github.com/user-attachments/assets/0236c53d-0974-4850-a30e-3736df479050)
 
-# Parts:
-1. [Exact quantities and parts needed for single axial system](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
-2. [Parts list draft](https://docs.google.com/document/d/1qKMDZtSdquMjX08xfJKCa0uS36UHgNZ3eyHph81zQOM/edit)
 
 # Profiler from 30 years ago:
-<p align="center"> 
-<img src="https://github.com/user-attachments/assets/5ffa2545-2cf1-40bd-9891-e65d8baee50d">
-</p>
+
 
 ### <div align = "Center" > Figure 5.0 (The First Profiler) </div>
