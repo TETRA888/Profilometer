@@ -1,4 +1,4 @@
-#  <div> Open Road Profiler (ORP) </div>
+#  <div align = "center"> Open Road Profiler (ORP) </div>
 
  ![Static Badge](https://img.shields.io/badge/Language-C-blue)
  ![Static Badge](https://img.shields.io/badge/Language-Python-red)
