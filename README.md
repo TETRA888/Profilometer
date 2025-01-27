@@ -9,8 +9,7 @@
  ![Static Badge](https://img.shields.io/badge/Tech-%20Class%20II%20Precision%20Laser-purple)
  ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
 
-An advanced, open-source system engineered to map the degradation of theoretical road designs for Caltrans. Leveraging a robust integration of **computer vision**, **LiDAR sensing**, and 
-**optical measurement** technologies to capture sub-millimeter road surface deformations under simulated traffic loads.
+An open-source system engineered to accurately map the deterioration of theoretical road designs proposed by Caltrans. Levergaing Class 3B precision laser, High load and Precision Stepper Motor Drivers, Encoders, Proximity sensors, and adjustable lighting to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0f8856cc-a083-4535-b870-cc8844e09d20" alt="title image" width="550">
