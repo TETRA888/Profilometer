@@ -49,7 +49,7 @@ $ cd Profilometer
 2. Set up the hardware as described in the [Electrical System Design](#electrical-system-design) and [Mechanical Frame](#mechanical-frame) sections.
 * [Parts list](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 
-## Sofware Design
+## Software Design
 The software is written in Python and C/C++ and provides tools for:
 * Real-time data acquisition.
 * Calibrating tools 
