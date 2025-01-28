@@ -42,9 +42,11 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ac2b38b4-f7ed-4a44-ba55-4ce7c39c568a" width="500">
+  <div align="center"> Figure 2.1 </div>
   <img src="https://github.com/user-attachments/assets/55ddd6bd-506d-4cd9-876a-5803f1acf2ee" alt="1-s2 0-S1996681417300354-gr6" width="500">
+  <div align="center"> Figure 2.2 </div>
 </p>
-<div align="center"> (Figure 2.1 & 2.2)(Paving new Caltrans Proposed Road Designs @ UCPRC Davis, CA 2024) </div>
+<div align="center"> Paving new Caltrans Proposed Road Designs @ UCPRC Davis, CA 2024 </div>
 
 ## How to Get Started
 1. Clone the repository
