@@ -1,5 +1,7 @@
 #  <div align = "center"> Open Road Profiler (ORP) </div>
 
+ ![Static Badge](https://img.shields.io/badge/Contributors-9-blueviolet)
+ ![Static Badge](https://img.shields.io/badge/License-GPL%203.0-brightgreen)
  ![Static Badge](https://img.shields.io/badge/Language-C-blue)
  ![Static Badge](https://img.shields.io/badge/Language-Python-red)
  ![Static Badge](https://img.shields.io/badge/Tech-RaspberryPi-hotpink)
@@ -8,7 +10,7 @@
  ![Static Badge](https://img.shields.io/badge/Tech-64MP%20Camera-purple)
  ![Static Badge](https://img.shields.io/badge/Tech-Class%203B%20Precision%20Laser-purple)
  ![Static Badge](https://img.shields.io/badge/Precision-Submilimeter-green)
-
+ 
 An open-source system engineered to accurately map the deterioration of theoretical road designs proposed by Caltrans. Levergaing Class 3B precision laser, High load and Precision Stepper Motor Drivers, Encoders, Proximity sensors, and adjustable lighting to capture sub-millimeter road surface deformations under simulated traffic loads.
 
 <div align="center">
