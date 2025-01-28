@@ -36,10 +36,15 @@ An open-source system engineered to accurately map the deterioration of theoreti
 Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP delivers end-to-end **systems engineering** for tracking pavement wear under simulated traffic conditions. Through repeated verification via external encoder sensors and validation via a 24/7 HVS Crew, the ORP system collects accurate degradation metrics, creating highly detailed point clouds and digital maps of road surfaces. These insights are pivotal in optimizing roads for the state of California. The end goal of this project is to enable all road research labs in the world with the ability to accurately assess how their road design degrades and performs overtime.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/80c31641-4dbb-49a7-ad4e-a4b5ba6d7d86" alt="1-s2 0-S1996681417300354-gr6" width="500">
+  <img src="https://github.com/user-attachments/assets/a2f987fe-74d6-4f24-bebb-29c878471050" alt="1-s2 0-S1996681417300354-gr6" width="500">
 </p>
-<div align="center"> Figure 1.0 (Heavy Vehicle Simulator) </div>
+<div align="center"> Figure 2.0 (Heavy Vehicle Simulator @ UCPRC Davis, CA 2025) </div>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ac2b38b4-f7ed-4a44-ba55-4ce7c39c568a" width="500">
+  <img src="https://github.com/user-attachments/assets/55ddd6bd-506d-4cd9-876a-5803f1acf2ee" alt="1-s2 0-S1996681417300354-gr6" width="500">
+</p>
+<div align="center"> (Figure 2.1 & 2.2)(Paving new Caltrans Proposed Road Designs @ UCPRC Davis, CA 2024) </div>
 
 ## How to Get Started
 1. Clone the repository
@@ -77,12 +82,12 @@ The profilometer consists of the following major electronic components:
   <img src="https://github.com/user-attachments/assets/d2793204-312c-4bae-87c7-b930093b7640" alt="System Design" width="40%">
   <img src="https://github.com/user-attachments/assets/e47172af-e0ef-41ed-a5eb-c84660c2853c" alt="Electrical Schematic" width="40%">
 </p>
-<div align="center"> Figure 2.1 High-Level Electrical System Design/Schematic  </div>
+<div align="center"> Figure 3.1 High-Level Electrical System Design/Schematic  </div>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/57f5ed04-3421-409e-b34d-de18fb0aa7bf" alt="System Design" width="40%">
 </p>
-<div align="center"> Figure 2.2 (Assembled electronics) </div>
+<div align="center"> Figure 3.2 (Assembled electronics) </div>
 
 ## Mechanical Frame
 
@@ -103,12 +108,12 @@ Accessibility and Maintenance:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2b34529f-097a-49ef-b5af-636d91c5e30e" alt="System Design" width="70%">
 </p>
-<div align = "Center" > Figure 3.1 (3D Blender Render) </div>
+<div align = "Center" > Figure 4.1 (3D Blender Render) </div>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/19168a9b-73d9-4032-93db-c142c46b60a5" alt="System Design" width="70%">
 </p>
-<div align = "Center" > Figure 4.1 (2nd Design Iteration Of Frame) </div>
+<div align = "Center" > Figure 4.2 (2nd Design Iteration Of Frame) </div>
 
 # Core Team
 - [**Asad Melibaev**](https://github.com/TETRA888)
