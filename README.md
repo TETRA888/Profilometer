@@ -116,9 +116,9 @@ Accessibility and Maintenance:
 <div align = "Center" > Figure 4.2 (2nd Design Iteration Of Frame) </div>
 
 # Core Team
-- [**Asad Melibaev**](https://github.com/TETRA888)
-- [**Adam Wu**](https://github.com/adamhwu)
+- [<img src="https://github.com/TETRA888.png" width="60px;"/><br /><sub><a href="https://github.com/TETRA888">Asad Melibaev</a></sub>](https://github.com/TETRA888/Profilometer)
 
+- [<img src="https://github.com/adamhwu.png" width="60px;"/><br /><sub><a href="https://github.com/adamhwu">Adam Wu</a></sub>](https://github.com/TETRA888/Profilometer)
 
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
