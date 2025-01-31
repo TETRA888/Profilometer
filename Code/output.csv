@@ -1,0 +1,12 @@
+701HC,10:56:56 AM,7/16/2020,HVS-DAQ2.ucprc.ucdavis.edu
+Name,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+X,0,500,1000,N/A,N/A,71,N/A,N/A,230,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Y,N/A,0,500,1000,N/A,71,N/A,N/A,N/A,N/A,N/A,N/A,230,N/A,N/A,N/A,N/A
+Test ID,Time,Date,Cycle #,Trafficking Load,Direction,Y position,CE Index,TE Index,# readings,4CS_0mm,4CS_25mm,4CS_50mm,4CS_90mm,4CS_120mm,4CS_150mm,4CS_200mm,Inside Air,Outside Air,12TS_0mm,12TS_25mm,12TS_50mm,12TS_90mm,12TS_120mm,12TS_150mm,12TS_200mm
+N/A,1:14,1/2/25,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Operator,Tire Pressure,Water Flow,Channelized,Comments,Weather,Test Load,Trafficking Direction,Wheel Type,Wheel Speed,Repeat,Actual Load,Start Time
+Adam/Asad,1000 psi,N/A,N/A,N/A,N/A,N/A,N/A,Round,N/A,N/A,N/A,N/A
+Distance,Speed,Water Flow
+100,N/A,43
+N/A,23,198
+-12,N/A,-0.123

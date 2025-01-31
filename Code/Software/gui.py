@@ -59,7 +59,7 @@ ttk.Label(mainframe, text = "Debugging functions").grid(column = 0, row = 9, sti
 ttk.Button(mainframe, text = "Move Without Scan", command = lambda: moveScanless()).grid(column = 0, row = 10, sticky = (W,E))
 ttk.Button(mainframe, text = "Scan Without Move", command = lambda: scanMoveless()).grid(column = 0, row = 11, sticky = (W,E))
 
-graph = PhotoImage(file = 'profileGraph.png')
+graph = PhotoImage(file = 'D:\ProfilometerProject\Code\Software\profileGraph.png')
 ttk.Label(mainframe, image = graph).grid(column = 0, row = 12, sticky = (W,E))
 
 # This simply goes through all of the children widgets within the mainframe and adds 
