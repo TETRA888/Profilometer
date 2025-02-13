@@ -1,4 +1,4 @@
-#  <div align = "center">` Open Road Profiler `(ORP) </div>
+#  <div align = "center">` Open Road Profiler (ORP) `</div>
 
  ![Static Badge](https://img.shields.io/badge/Contributors-9-blueviolet)
  ![Static Badge](https://img.shields.io/badge/License-GPL%203.0-brightgreen)
