@@ -3,6 +3,8 @@ import graph
 import tkinter
 from PIL import ImageTk, Image
 
+import PIL.Image
+
 from utilityFunctions import connect, startScanning, startCalibrate, startHome, sendData, moveScanless, scanMoveless
 from graph import graphProfile
 from tkinter import *
@@ -60,9 +62,11 @@ ttk.Button(mainframe, text = "Move Without Scan", command = lambda: moveScanless
 ttk.Label(mainframe, text = "Scan without moving the gantry head").grid(column = 0, row = 6, sticky = (W,E))
 ttk.Button(mainframe, text = "Scan Without Move", command = lambda: scanMoveless()).grid(column = 1, row = 6, sticky = (W,E))
 
-graph = PhotoImage(file = '3DProfile.png')
-ttk.Label(mainframe, text = "Current 3D profile of the road").grid(column = 0, row = 7, sticky = (W,E))
-ttk.Label(mainframe, image = graph).grid(column = 0, row = 8, sticky = (N,S,W,E))
+pillowImage = PIL.Image.open("3DProfile.png")
+width, height = pillowImage.size
+resizedImage = pillowImage.resize((width//2,height//2), PIL.Image.Resampling.LANCZOS)
+graph = ImageTk.PhotoImage(resizedImage)
+ttk.Label(mainframe, image = graph).grid(column = 0, row = 7, sticky = (N,W, E, S))
 
 # This simply goes through all of the children widgets within the mainframe and adds 
 # padding around them to make it less scrunched together
