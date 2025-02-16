@@ -22,7 +22,8 @@ mainframe.grid(column = 0, row = 0, sticky = (N, W, E, S))
 # This tells the geometry manager to dynamically adjust the window size to fit the 
 # natural size of the widgets
 root.columnconfigure(0, weight = 1)
-root.columnconfigure(0, weight = 1)
+mainframe.columnconfigure(0, weight = 1)
+mainframe.rowconfigure(7, weight=1)     # Make row 7 expandable
 
 # Placeholder debugging functions
 # def startScanning():
@@ -62,11 +63,16 @@ ttk.Button(mainframe, text = "Move Without Scan", command = lambda: moveScanless
 ttk.Label(mainframe, text = "Scan without moving the gantry head").grid(column = 0, row = 6, sticky = (W,E))
 ttk.Button(mainframe, text = "Scan Without Move", command = lambda: scanMoveless()).grid(column = 1, row = 6, sticky = (W,E))
 
-pillowImage = PIL.Image.open("3DProfile.png")
-width, height = pillowImage.size
-resizedImage = pillowImage.resize((width//2,height//2), PIL.Image.Resampling.LANCZOS)
-graph = ImageTk.PhotoImage(resizedImage)
-ttk.Label(mainframe, image = graph).grid(column = 0, row = 7, sticky = (N,W, E, S))
+def resizeFunction(imageName):
+	pillowImage = PIL.Image.open(imageName)
+	width, height = pillowImage.size
+	resizedImage = pillowImage.resize((width//2,height//2), PIL.Image.Resampling.LANCZOS)
+	return ImageTk.PhotoImage(resizedImage)
+
+graph = resizeFunction("3DProfile.png")
+graph1 = resizeFunction("profileGraph.png")
+ttk.Label(mainframe, image = graph).grid(column = 0, row = 7, sticky = (N,S,E,W), padx=10, pady=10)
+ttk.Label(mainframe, image = graph1).grid(column = 1, row = 7, sticky = (N,S,E,W), padx=10, pady=10)
 
 # This simply goes through all of the children widgets within the mainframe and adds 
 # padding around them to make it less scrunched together
