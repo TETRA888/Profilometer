@@ -70,12 +70,9 @@ The software is written in Python and C/C++ and provides tools for:
 
 <p align="center">
  <img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="software design overview" width="40%">
- <img src = "https://github.com/user-attachments/assets/7f2265ca-e199-433f-b754-02d2953d9ff0" alt="simple gui" width="40%">
+ <img src = "https://github.com/user-attachments/assets/72d74f75-8cb0-48e5-abce-45a1af819c5c" alt="simple gui" width="40%">
 </p>
 <div align ="center"> Software Design Overview/Simple Gui 1.1</div>
-
-
-
 
 ## Electrical System Design
 
