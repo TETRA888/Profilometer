@@ -68,10 +68,9 @@ The software is written in Python and C/C++ and provides tools for:
 * Calibrating tools 
 * Exporting data to formats like CSV and STL.
 
-
 <p align="center">
  <img src = "https://github.com/user-attachments/assets/fe528e88-6bc0-46dd-bb4b-45c65ca7cced" alt="software design overview" width="40%">
- <img src = "https://github.com/user-attachments/assets/32ccac83-22e0-466b-923a-43ae7843b1e9" alt="simple gui" width="40%">
+ <img src = "https://github.com/user-attachments/assets/7f2265ca-e199-433f-b754-02d2953d9ff0" alt="simple gui" width="40%">
 </p>
 <div align ="center"> Software Design Overview/Simple Gui 1.1</div>
 
