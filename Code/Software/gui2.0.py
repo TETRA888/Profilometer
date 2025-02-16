@@ -14,7 +14,7 @@ root = Tk()
 root.title("Open Road Profiler 1.1")
 
 # Putting a mainframe inside of the root
-mainframe = ttk.Frame(root, padding = "3 3 12 12")
+mainframe = ttk.Frame(root, padding = "5")
 mainframe.grid(column = 0, row = 0, sticky = (N, W, E, S))
 
 # This tells the geometry manager to dynamically adjust the window size to fit the 
@@ -43,24 +43,26 @@ root.columnconfigure(0, weight = 1)
 # The only issue here is that perhaps you would need to find out if the connection has been established
 # This could get really messey with serial so ill wait on this
 
-ttk.Label(mainframe, text = "This function will start scanning from 0-2500mm").grid(column = 0, row = 1, sticky = (W, E))
+ttk.Label(mainframe, text = "Start Scanning From 0-2500mm").grid(column = 0, row = 1, sticky = (W, E))
 ttk.Button(mainframe, text = "Scan", command = lambda: startScanning(ser)).grid(column = 1, row = 1, sticky = (W, E))
 
-ttk.Label(mainframe, text = "This function will move the laser head back to the start position at X = 0").grid(column = 0, row = 2, sticky = (W, E))
+ttk.Label(mainframe, text = "Home the laser head back to the start position at X = 0").grid(column = 0, row = 2, sticky = (W, E))
 ttk.Button(mainframe, text = "Home", command = lambda: startHome(ser)).grid(column = 1, row = 2, sticky = (W, E))
 
-ttk.Label(mainframe, text = "This function checks gantry calibration").grid(column = 0, row = 3, sticky = (W, E))
+ttk.Label(mainframe, text = "Check gantry calibration").grid(column = 0, row = 3, sticky = (W, E))
 ttk.Button(mainframe, text = "Calibrate", command = lambda: startCalibrate(ser)).grid(column = 1, row = 3, sticky = (W, E))
 
-ttk.Label(mainframe, text = "This function sends the data to the DAQ").grid(column = 0, row = 4, sticky = (W, E))
+ttk.Label(mainframe, text = "Send data to the DAQ").grid(column = 0, row = 4, sticky = (W, E))
 ttk.Button(mainframe, text = "Send", command = lambda: sendData()).grid(column = 1, row = 4, sticky = (W, E))
 
-ttk.Label(mainframe, text = "Debugging functions").grid(column = 0, row = 5, sticky = (W,E))
+ttk.Label(mainframe, text = "Move gantry head without scanning").grid(column = 0, row = 5, sticky = (W,E))
 ttk.Button(mainframe, text = "Move Without Scan", command = lambda: moveScanless()).grid(column = 1, row = 5, sticky = (W,E))
+ttk.Label(mainframe, text = "Scan without moving the gantry head").grid(column = 0, row = 6, sticky = (W,E))
 ttk.Button(mainframe, text = "Scan Without Move", command = lambda: scanMoveless()).grid(column = 1, row = 6, sticky = (W,E))
 
-graph = PhotoImage(file = 'profileGraph.png')
-ttk.Label(mainframe, image = graph).grid(column = 0, row = 7, sticky = (N,S,W,E))
+graph = PhotoImage(file = '3DProfile.png')
+ttk.Label(mainframe, text = "Current 3D profile of the road").grid(column = 0, row = 7, sticky = (W,E))
+ttk.Label(mainframe, image = graph).grid(column = 0, row = 8, sticky = (N,S,W,E))
 
 # This simply goes through all of the children widgets within the mainframe and adds 
 # padding around them to make it less scrunched together
