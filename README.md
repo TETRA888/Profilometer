@@ -78,7 +78,7 @@ The software is written in Python and C/C++ and provides tools for:
 
 The profilometer consists of the following major electronic components:
 * Sensors: Class 3B Precision laser, High Resolution Taiss Rotary Encoder, Inductive Proximity Sensor.
-* Motors and Power: Nema 23 Stepper Motor, 600W Universal power supply.
+* Motors and Power: Nema 23 Stepper Motor, 600W Universal power supply, 5 DC-DC Buck Converters
 *	Controllers: Arduino Mega microntroller with Raspberry Pi.
 
 <p align="center">
