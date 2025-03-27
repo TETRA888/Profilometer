@@ -16,7 +16,7 @@ An open-source system engineered to accurately map the deterioration of theoreti
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0f8856cc-a083-4535-b870-cc8844e09d20" alt="title image" width="550">
 </div>
-<div align = "Center"> Figure 1.0 (Frame with Electronics) </div>
+<div align = "Center"> Figure 1.00 (Frame with Electronics) </div>
 
 ## Table of Contents
 - [Purpose](#purpose)
