@@ -59,7 +59,24 @@ Purpose-built to work with the **Heavy Vehicle Simulator (HVS) system**, the ORP
 $ git clone https://github.com/TETRA888/Profilometer.git
 $ cd Profilometer
 ```
-2. Set up the hardware as described in the [Electrical System Design](#electrical-system-design) and [Mechanical Frame](#mechanical-frame) sections.
+2. Download required dependencies 
+```bash
+$ pip install pyserial
+$ pip install pillow
+$ pip install pandas
+$ pip install numpy
+$ pip install matplotlib
+$ pip install scipy
+```
+
+3. Adjust parameters for serial connection
+* Inside /Profilometer/Code/Software/utilityFunctions.py
+* Change the first argument for Serial '/dev/cu.usbmodem1422201' to your specific device port name
+```python
+   return serial.Serial('/dev/cu.usbmodem1422201', 115200, timeout=1)
+```
+
+5. Set up the hardware as described in the [Electrical System Design](#electrical-system-design) and [Mechanical Frame](#mechanical-frame) sections.
 * [Parts list](https://docs.google.com/spreadsheets/d/1ZoPqY9_Fw6rnbfQ8UKPL65L5WncEJa40W8i2KiA_dJQ/edit?gid=0#gid=0)
 
 ## Software Design
