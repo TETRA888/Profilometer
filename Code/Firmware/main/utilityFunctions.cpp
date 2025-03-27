@@ -3,6 +3,13 @@
 const uint32_t positiveInfinity = UINT32_MAX;
 volatile long endEncoderPosition = 0;
 
+/*
+  endstop0 is the proximity sensor that is connected closest to the base of the profiler
+  endstop1 is located on the far end of the profiler
+*/
+int endStop0 = 3;
+int endStop1 = 2;
+
 AccelStepper stepper1(1, stepPin, dirPin);
 
 /*
@@ -20,7 +27,7 @@ float homeRailX() {
   endStopTriggered = false;
   stepper.setMaxSpeed(2000);
   stepper.setAcceleration(1000);
-  attachInterrupt(digitalPinToInterrupt(3), checkEndStopStatus2, HIGH);
+  attachInterrupt(digitalPinToInterrupt(endStop0), checkEndStopStatus2, HIGH);
 
   // Move away from base
   stepper.setSpeed(-5000);
@@ -28,7 +35,7 @@ float homeRailX() {
     stepper.runSpeed();
   }
   stepper.stop();
-  detachInterrupt(digitalPinToInterrupt(3));
+  detachInterrupt(digitalPinToInterrupt(endStop0));
 
   stepper.setCurrentPosition(0); // Set absolute position to 0
   encoderPosition = 0;
@@ -37,7 +44,7 @@ float homeRailX() {
 
   // Reverse and prepare to go opposite direction
   endStopTriggered = false;
-  attachInterrupt(digitalPinToInterrupt(2), checkEndStopStatus2, HIGH);
+  attachInterrupt(digitalPinToInterrupt(endStop1), checkEndStopStatus2, HIGH);
 
   // Move towards base
   stepper.setSpeed(5000);
@@ -45,14 +52,12 @@ float homeRailX() {
     stepper.runSpeed();
   }
   stepper.stop();
-  detachInterrupt(digitalPinToInterrupt(2));
-
+  detachInterrupt(digitalPinToInterrupt(endStop1));
 
   float endPosition = stepper.currentPosition(); // Calculate the current position
   float distanceInMM = (endPosition * (2 * PI * 12.5)) / 3200;
 
-  // Debugging code
-  /*
+  /*  Debugging code
   Serial.print("Second endstop reached. Total distance: ");
   Serial.print(distanceInMM);
   Serial.println(" mm");
@@ -67,14 +72,21 @@ float homeRailX() {
 */
 
 bool calibrationCheck(){
+    /*
+      Setup the encoder to start recording the position of the rail and then home the rail
+      compare the distance travelled to the encoder position
+      Ensure that the distance travelled is within a 2mm fault tolerence
+    */
     setupEncoderInterrupts(); // setup
     encoderPosition = 0;
     //Serial.println(encoderPosition);
     float distanceTravelled = homeRailX();
     detachEncoderInterrupts(); // clean up
     //Serial.println(encoderPosition/6.819);
-    // Creating a 2mm fault tolerence
-    if(encoderPosition >= 2498 && encoderPosition <= 2502) return true;
+
+
+    // Creating a 5mm fault tolerence
+    if(encoderPosition >= 2495 && encoderPosition <= 2505) return true;
 }
 
 /*
@@ -97,37 +109,35 @@ void collectDataPoints(float startX, float endX, float stepSize){
         Serial.print(distance);
         Serial.println();
     }
+
+    moveRailX(-endX); // Move gantry head back to base
 }
 
 /*
   debugging functions, same as collectDataPoints, but without moving and scanning elements, respectively
+
+  @param StartX is the start location of the scanning
+  @param endX is the end location of the scanning
+  @param stepSize is the increment of the distance that it will be travelling
 */
 
 void scanMoveless(float startX, float endX, float stepSize){
   for (float x = startX; x <= endX; x += stepSize){
-    readLaserValue();
+        readLaserValue();
 
-    Serial.print("DATA:");
-    Serial.print(x);
-    Serial.println();
+        Serial.print("DATA:");
+        Serial.print(x);
+        Serial.print(",");
+        Serial.print("0");
+        Serial.print(distance);
+        Serial.println();
   }
 }
 
 void moveScanless(float startX, float endX, float stepSize){
   for (float x = startX; x <= endX; x += stepSize){
       moveRailX(stepSize);
-      Serial.println("moving...");
     }
+
+  moveRailX(-endX); // Move gantry head back to base  
 }
-
-/*
-    Simple function that tells the Raspberry Pi the status of the data collection
-*/
-
-void sendDataToRaspberryPi(){
-    Serial.println("DATA_COLLECTION_COMPLETE");
-}
-
-
-
-

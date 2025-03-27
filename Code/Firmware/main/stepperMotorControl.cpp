@@ -15,6 +15,11 @@ const int powerPin = 10; // Driver Power Pin Set To Active Constant 5V
     @param dirPin is the direction pin
 */
 
+/*
+    For more information on the AccelStepper library, please visit the following link:
+    https://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a8a419121702399d8ac66df4cc47481f4
+*/
+
 AccelStepper stepper(1, stepPin, dirPin);
 
 /*
@@ -37,7 +42,7 @@ void setupStepperMotors(int speed, int acceleration){
 */
 
 bool moveRailX(int distance){
-    int pulses = (distance / (2*PI*12.5)) * 3200; // Approximate linear travel distance with 3200 steps per revolution and 28mm radius shaft
+    int pulses = (distance / (2*PI*12.5)) * 3200; // Approximate linear travel distance with 3200 steps per revolution and 12.5mm radius shaft
 
     stepper.move(pulses);
     while (stepper.distanceToGo() != 0){

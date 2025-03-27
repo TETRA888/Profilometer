@@ -10,10 +10,14 @@ from graph import graphProfile
 from tkinter import *
 from tkinter import ttk
 
+# @author: Asad Melibaev <amelibaev@ucdavis.edu>
+# @version: 2.0
+# @since: 2025-21-09
+
 # Creating a mainwindow refrence that will be called the root
 # This will be the parent of all the children widgets within it
 root = Tk()
-root.title("Open Road Profiler 1.1")
+root.title("Open Road Profiler 2.0")
 
 # Putting a mainframe inside of the root
 mainframe = ttk.Frame(root, padding = "5")
@@ -25,29 +29,11 @@ root.columnconfigure(0, weight = 1)
 mainframe.columnconfigure(0, weight = 1)
 mainframe.rowconfigure(7, weight=1)     # Make row 7 expandable
 
-# Placeholder debugging functions
-# def startScanning():
-#     print("Scanning")
-
-# def startHome():
-#     print("Homing")
-
-# def startCalibrate():
-#     print("Calibrating")
-
-# def sendData():
-#     print("Sending Data")
-
 # This function establishes a connection between the microcontroller and the Raspberrpi Pi
 ser = connect() #REMOVE ME FOR ACTUAL TESTING
 
-# TODO
-# add a seperate button that will let you establish a connection
-# The only issue here is that perhaps you would need to find out if the connection has been established
-# This could get really messey with serial so ill wait on this
-
 ttk.Label(mainframe, text = "Start Scanning From 0-2500mm").grid(column = 0, row = 1, sticky = (W, E))
-ttk.Button(mainframe, text = "Scan", command = lambda: startScanning(ser)).grid(column = 1, row = 1, sticky = (W, E))
+ttk.Button(mainframe, text = "Scan", command = lambda: scanAndShow()).grid(column = 1, row = 1, sticky = (W, E))
 
 ttk.Label(mainframe, text = "Home the laser head back to the start position at X = 0").grid(column = 0, row = 2, sticky = (W, E))
 ttk.Button(mainframe, text = "Home", command = lambda: startHome(ser)).grid(column = 1, row = 2, sticky = (W, E))
@@ -70,6 +56,12 @@ def resizeFunction(imageName):
 	return ImageTk.PhotoImage(resizedImage)
 
 graph = resizeFunction("3DProfile.png")
+
+def scanAndShow():
+	startScanning(ser)
+	graph = resizeFunction("3DProfile.png")
+	root.update_idletasks()
+
 graph1 = resizeFunction("profileGraph.png")
 ttk.Label(mainframe, image = graph).grid(column = 0, row = 7, sticky = (N,S,E,W), padx=10, pady=10)
 ttk.Label(mainframe, image = graph1).grid(column = 1, row = 7, sticky = (N,S,E,W), padx=10, pady=10)
@@ -80,3 +72,19 @@ for child in mainframe.winfo_children():
     child.grid_configure(padx=5, pady=5)
 
 root.mainloop()
+
+# Debugging functions
+'''
+# Placeholder debugging functions
+# def startScanning():
+#     print("Scanning")
+
+# def startHome():
+#     print("Homing")
+
+# def startCalibrate():
+#     print("Calibrating")
+
+# def sendData():
+#     print("Sending Data")
+'''

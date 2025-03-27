@@ -2,15 +2,12 @@
 
 // Green LED
 int lightPin1 = 33;
-int gndPin1 = 37;
 
 // Yellow LED
 int lightPin2 = 32;
-int gndPin2 = 41;
 
 // Red LED
 int lightPin3 = 52;
-int gndPin3 = 45;
 
 /*
     Setting up the pins for the status lights
@@ -21,26 +18,18 @@ void lightIndicatorSetup(){
     pinMode(lightPin2, OUTPUT);
     pinMode(lightPin3, OUTPUT);
 
-    pinMode(gndPin1, OUTPUT);
-    pinMode(gndPin2, OUTPUT);
-    pinMode(gndPin2, OUTPUT);
-    
     digitalWrite(lightPin1, LOW);
     digitalWrite(lightPin2, LOW);
     digitalWrite(lightPin3, LOW);
-    digitalWrite(gndPin1, LOW);
-    digitalWrite(gndPin2, LOW);
-    digitalWrite(gndPin3, LOW);
-    
 }
 
 /*
     This is a function that will trigger the requested LED light on the microcontroller
 
     @param status is the light that you want to turn on
-            - 1 is the Red LED
+            - 1 is the Green LED
             - 2 is the Yellow LED
-            - 3 is the Green LED
+            - 3 is the Red LED
     
     @param activation is what state you want the LED to be in
             - 1 is LED ON
