@@ -3,7 +3,7 @@
 /*Pins for the DM542 stepper motor driver*/
 const int stepPin = 13; // Pulse Output Pin
 const int dirPin = 12; // Direction Output Pin
-const int enablePin = 9; // Driver Enable Output Pin
+const int enablePin = 11; // Driver Enable Output Pin
 const int powerPin = 10; // Driver Power Pin Set To Active Constant 5V
 
 /*
@@ -37,9 +37,9 @@ void setupStepperMotors(int speed, int acceleration){
 */
 
 bool moveRailX(int distance){
-    int pulses = (distance / (2*PI*28)) * 3200; // Approximate linear travel distance with 3200 steps per revolution and 28mm radius shaft
+    int pulses = (distance / (2*PI*12.5)) * 3200; // Approximate linear travel distance with 3200 steps per revolution and 28mm radius shaft
 
-    stepper.moveTo(pulses);
+    stepper.move(pulses);
     while (stepper.distanceToGo() != 0){
         stepper.run();
     }

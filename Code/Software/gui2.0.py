@@ -39,7 +39,7 @@ mainframe.rowconfigure(7, weight=1)     # Make row 7 expandable
 #     print("Sending Data")
 
 # This function establishes a connection between the microcontroller and the Raspberrpi Pi
-#ser = connect() #REMOVE ME FOR ACTUAL TESTING
+ser = connect() #REMOVE ME FOR ACTUAL TESTING
 
 # TODO
 # add a seperate button that will let you establish a connection

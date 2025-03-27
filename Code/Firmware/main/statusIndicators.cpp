@@ -1,13 +1,16 @@
 #include "statusIndicators.hpp"
 
-int lightPin1 = 28;
-int gndPin1 = 29;
+// Green LED
+int lightPin1 = 33;
+int gndPin1 = 37;
 
-int lightPin2 = 34;
-int gndPin2 = 36;
+// Yellow LED
+int lightPin2 = 32;
+int gndPin2 = 41;
 
-int lightPin3 = 35;
-int gndPin3 = 37;
+// Red LED
+int lightPin3 = 52;
+int gndPin3 = 45;
 
 /*
     Setting up the pins for the status lights
@@ -21,13 +24,14 @@ void lightIndicatorSetup(){
     pinMode(gndPin1, OUTPUT);
     pinMode(gndPin2, OUTPUT);
     pinMode(gndPin2, OUTPUT);
-
+    
     digitalWrite(lightPin1, LOW);
     digitalWrite(lightPin2, LOW);
     digitalWrite(lightPin3, LOW);
     digitalWrite(gndPin1, LOW);
     digitalWrite(gndPin2, LOW);
     digitalWrite(gndPin3, LOW);
+    
 }
 
 /*
@@ -44,24 +48,33 @@ void lightIndicatorSetup(){
 */
 
 void lightIndicatorActivation(int status, int activation){
+    digitalWrite(lightPin1, LOW);
+    digitalWrite(lightPin2, LOW);
+    digitalWrite(lightPin3, LOW);
+    
     switch(status){
         case 1:
             if(activation == 1){
                 digitalWrite(lightPin1, HIGH);
+                break;
             }
             else{
                 digitalWrite(lightPin1, LOW);
+                break;
             }
         case 2:
             if(activation == 1){
                 digitalWrite(lightPin2, HIGH);
+                break;
             }
             else{
                 digitalWrite(lightPin2, LOW);
+                break;
             }
         case 3:
             if(activation == 1){
                 digitalWrite(lightPin3, HIGH);
+                break;
             }
             else{
                 digitalWrite(lightPin3, LOW);

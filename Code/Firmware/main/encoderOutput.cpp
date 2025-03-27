@@ -44,3 +44,8 @@ void setupEncoderInterrupts(){
     attachInterrupt(digitalPinToInterrupt(encoderPinA), updateEncoder, CHANGE); // Calls updateEncoder if a change in channel A's input has been detected
     attachInterrupt(digitalPinToInterrupt(encoderPinB), updateEncoder, CHANGE); // Calls updateEncoder if a change in channel B's input has been detected
 }
+
+void detachEncoderInterrupts(){
+  detachInterrupt(digitalPinToInterrupt(encoderPinA));
+  detachInterrupt(digitalPinToInterrupt(encoderPinB));
+}

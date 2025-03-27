@@ -10,6 +10,8 @@ extern const int dirPin;
 extern const int enablePin;
 extern const int powerPin;
 
+extern AccelStepper stepper;
+
 void setupStepperMotors(int speed, int acceleration);
 bool moveRailX(int distance);
 

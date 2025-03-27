@@ -11,5 +11,6 @@ extern volatile bool lastAState;
 void updateEncoder();
 void setupEncoder();
 void setupEncoderInterrupts();
+void detachEncoderInterrupts();
 
 #endif

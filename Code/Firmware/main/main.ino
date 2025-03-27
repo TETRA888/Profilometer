@@ -17,12 +17,17 @@ void setup(){
       @param acceleration Setting acceleration to 1000mm/s^2
     */
     setupStepperMotors(2000, 1000);
-    setupEncoder();
-    setupEndStops();
-    setupLaser();
-    lightIndicatorSetup(); // Indicator lights for live status updates
-    calibrationCheck(); // Do a calibration run when turned on
-    lightIndicatorActivation(3, 1); // Green light indicating that everything is functioning
+    //moveRailX(5000);
+    homeRailX();
+    //calibrationCheck();
+    //setupEncoder();
+    //setupEndStops(); // Not needed anymore
+    //setupLaser();
+    //lightIndicatorSetup(); // Indicator lights for live status updates
+    //calibrationCheck(); // Do a calibration run when turned on
+    //lightIndicatorActivation(1, 1); // Green light indicating that everything is functioning
+    //lightIndicatorActivation(2, 1);
+    //lightIndicatorActivation(3, 1);
 }
 
 /*
@@ -30,8 +35,9 @@ void setup(){
 */
 
 void loop(){
+
   if (Serial.available() > 0){
-    lightIndicatorActivation(2,0); // Turn off Yellow light indicator
+    lightIndicatorActivation(1,1); // Turn off Yellow light indicator
     String command = Serial.readStringUntil('\n');
     if(command == "START"){
       collectDataPoints(0, 2500, 0.1); // This is 25000 data points over the span of 2.5 meters
@@ -41,6 +47,7 @@ void loop(){
       calibrationCheck();
     }
     else if (command == "HOME"){
+      //moveRailX(5000);
       homeRailX();
     }
     /* 
@@ -56,6 +63,6 @@ void loop(){
     }
   }
   else{
-    lightIndicatorActivation(2,1); // Yellow light if no serial connection
+    lightIndicatorActivation(3,1); // Yellow light if no serial connection
   }
 }

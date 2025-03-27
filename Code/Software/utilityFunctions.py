@@ -5,7 +5,7 @@ import time
 # and the Raspberry Pi
 def connect():
     print("Connecting") # Debugging code
-    return serial.Serial('COM4', 115200, timeout=1)
+    return serial.Serial('/dev/cu.usbmodem1422201', 115200, timeout=1)
 
 # Archieved functions
 def printStatements():

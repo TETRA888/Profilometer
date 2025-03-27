@@ -12,7 +12,7 @@
 extern const uint32_t positiveInfinity;
 extern volatile long endEncoderPosition;
 
-bool homeRailX();
+float homeRailX();
 bool calibrationCheck();
 void collectDataPoints(float startX, float endX, float stepSize);
 void sendDataToRaspberryPi();

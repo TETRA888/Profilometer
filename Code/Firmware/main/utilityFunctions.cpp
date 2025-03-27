@@ -9,18 +9,56 @@ AccelStepper stepper1(1, stepPin, dirPin);
     Simple function that will home the block to the encoder
 */
 
-bool homeRailX(){
-    stepper1.moveTo(positiveInfinity);
-    attachInterrupt(digitalPinToInterrupt(endStop0), checkEndStopStatus, HIGH);
+volatile bool endStopTriggered = false;
 
-    while(endStop0 != HIGH){
-        checkEndStopStatus();
-        stepper1.run();
-    }
+void checkEndStopStatus2() {
+  endStopTriggered = true;
+}
 
-    stepper1.stop();
+float homeRailX() {
+  // Prepare for first end stop detection
+  endStopTriggered = false;
+  stepper.setMaxSpeed(2000);
+  stepper.setAcceleration(1000);
+  attachInterrupt(digitalPinToInterrupt(3), checkEndStopStatus2, HIGH);
 
-    return true;
+  // Move away from base
+  stepper.setSpeed(-5000);
+  while(!endStopTriggered){
+    stepper.runSpeed();
+  }
+  stepper.stop();
+  detachInterrupt(digitalPinToInterrupt(3));
+
+  stepper.setCurrentPosition(0); // Set absolute position to 0
+  encoderPosition = 0;
+
+  delay(100); // delay for safety
+
+  // Reverse and prepare to go opposite direction
+  endStopTriggered = false;
+  attachInterrupt(digitalPinToInterrupt(2), checkEndStopStatus2, HIGH);
+
+  // Move towards base
+  stepper.setSpeed(5000);
+  while(!endStopTriggered){
+    stepper.runSpeed();
+  }
+  stepper.stop();
+  detachInterrupt(digitalPinToInterrupt(2));
+
+
+  float endPosition = stepper.currentPosition(); // Calculate the current position
+  float distanceInMM = (endPosition * (2 * PI * 12.5)) / 3200;
+
+  // Debugging code
+  /*
+  Serial.print("Second endstop reached. Total distance: ");
+  Serial.print(distanceInMM);
+  Serial.println(" mm");
+  */
+
+  return distanceInMM;
 }
 
 /*
@@ -29,30 +67,14 @@ bool homeRailX(){
 */
 
 bool calibrationCheck(){
-    homeRailX();
-
-    setupEncoderInterrupts();
+    setupEncoderInterrupts(); // setup
     encoderPosition = 0;
-
-    bool reached = moveRailX(-2500);
-
-    if(reached && (endStop1 == HIGH)){
-        bool returned = moveRailX(2500);
-        endEncoderPosition = encoderPosition;
-    }
-    else{
-        lightIndicatorActivation(1,1);
-        return false;
-    }
-
-    if(endEncoderPosition == 2500){
-        endEncoderPosition = 0;
-        return true;
-    }
-    else{
-        lightIndicatorActivation(1,1);
-        return false;
-    }
+    //Serial.println(encoderPosition);
+    float distanceTravelled = homeRailX();
+    detachEncoderInterrupts(); // clean up
+    //Serial.println(encoderPosition/6.819);
+    // Creating a 2mm fault tolerence
+    if(encoderPosition >= 2498 && encoderPosition <= 2502) return true;
 }
 
 /*
@@ -72,7 +94,7 @@ void collectDataPoints(float startX, float endX, float stepSize){
         Serial.print(x);
         Serial.print(",");
         Serial.print("0");
-        Serial.print("distance");
+        Serial.print(distance);
         Serial.println();
     }
 }
