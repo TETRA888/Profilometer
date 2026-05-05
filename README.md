@@ -138,8 +138,6 @@ Accessibility and Maintenance:
 # Core Team
 - [<img src="https://github.com/TETRA888.png" width="60px;"/><br /><sub><a href="https://github.com/TETRA888">Asad Melibaev</a></sub>](https://github.com/TETRA888/Profilometer)
 
-- [<img src="https://github.com/adamhwu.png" width="60px;"/><br /><sub><a href="https://github.com/adamhwu">Adam Wu</a></sub>](https://github.com/TETRA888/Profilometer)
-
 # Documentation and Implementation:
 1. [Wiki](https://github.com/TETRA888/Profilometer/wiki)
 
